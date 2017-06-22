@@ -24,17 +24,7 @@ class Api::V1::SubRedditsController < ApplicationController
   # POST /sub_reddits
   # POST /sub_reddits.json
   def create
-    @sub_reddit = SubReddit.new(sub_reddit_params)
-
-    respond_to do |format|
-      if @sub_reddit.save
-        format.html { redirect_to @sub_reddit, notice: 'Sub reddit was successfully created.' }
-        format.json { render :show, status: :created, location: @sub_reddit }
-      else
-        format.html { render :new }
-        format.json { render json: @sub_reddit.errors, status: :unprocessable_entity }
-      end
-    end
+    sub_reddit = SubReddits::Create.new(sub_reddit_params[:title])
   end
 
   # PATCH/PUT /sub_reddits/1

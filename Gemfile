@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'active_model_serializers', '~> 0.10.0'
 
+gem 'httparty'
+
 group :development, :test do
   gem 'pry'
   # Adds support for Capybara system testing and selenium driver
@@ -41,6 +43,8 @@ group :development, :test do
   gem 'capybara', '~> 2.13.0'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
