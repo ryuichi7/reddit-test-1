@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170622144434) do
+ActiveRecord::Schema.define(version: 20170625123139) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,8 @@ ActiveRecord::Schema.define(version: 20170622144434) do
     t.bigint "sub_reddit_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "title"
+    t.text "content"
     t.index ["sub_reddit_id"], name: "index_sub_reddit_posts_on_sub_reddit_id"
   end
 

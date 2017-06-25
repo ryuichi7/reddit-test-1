@@ -1,0 +1,288 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/UnsentLetters/about.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=R0VpDu4oRYJWo57ekz; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=0000000000053cv4qe.2.1498395371701.Z0FBQUFBQlpUN0xySmhwd1BsaTNIS0xQQmVocUFhdXd3SzNjak1OOEkwV1JTQXVuaEY5NC1LeWU1aktkUmtBWk5ZRjU3RnBEU25VQXVhd2xYUi04aUUzNXNnV1lIVjJlQ2VEOE1vaDYwd3VSSTJaSDA4R2tpblJwOTF0UmZ3NjhETzdjdzdfWjFLdEM;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Tue, 25-Jun-2019 12:56:11
+        GMT; secure
+      - session_tracker=A5iG1DNief7xie5Sbq.0.1498395371691.Z0FBQUFBQlpUN0xyR05uQXp4SEJhUTExRkJzMzJrMnF2bEppX1VnT2EzalFsOWNSWEJYYURNeDgxTUFtWFdFSC1CLVlSMmJhdElaOTQwOWl6cWVLTzNqeUxsUy1QNEdaNzdyMXo5RmpGS3hYdVRULUJEalJDc2JRLXhmX2phV2JTdUFoMkdfbUdIY3Q;
+        Domain=reddit.com; Max-Age=7199; Path=/; expires=Sun, 25-Jun-2017 14:56:11
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=W%2Fy0Dzk5yJD6YFL3q9faPmUM7Dql0rkkOFgAVGDBpeRqt13T4fmpmGwwi3Jq9LRMqF9d0CtH3%2BWJNoLLNc6WXifoT3yO0S59
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '2625'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 25 Jun 2017 12:56:11 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-hhn1520-HHN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1498395372.635896,VS0,VE121
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "t5", "data": {"user_is_contributor": null, "banner_img":
+        "", "submit_text_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Letters
+        must have a real, intended recipient. Letters to your self should be posted
+        to &lt;a href=\"/r/offmychest\"&gt;/r/offmychest&lt;/a&gt;. Letters to large
+        groups of people will be removed. Song lyrics and youtube links should go
+        to &lt;a href=\"/r/unsentmusic\"&gt;/r/unsentmusic&lt;/a&gt;. Poetry is better
+        off in &lt;a href=\"/r/OCPoetry\"&gt;/r/OCPoetry&lt;/a&gt;.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "user_is_banned": null, "wiki_enabled": false, "show_media":
+        true, "id": "2seir", "description": "[](https://www.reddit.com/r/ProCSS/)\n\n\nWe''ve
+        all had times where we''ve wanted to spill the beans to someone, be they bad
+        or good, but never did or can''t for whatever reasons. Post a letter here,
+        whether it''s a Thank You note or something not so happy.\n\nLetter to an
+        ex? Mad at the parents? Roommates getting to you? Thankful but can''t express
+        it?\n\nThis is the place to say what needs to be said. \n___________________________________________\n**It
+        doesn''t have to be said, but please be nice. Unnecessary, nasty comments
+        will be STRICTLY moderated.**\n\n**Don''t be a jerk.**\n&amp;nbsp;\n\n\n\n&amp;nbsp;\n\n**RULES:**
+        \n\n&amp;nbsp;1. **Any violation of Reddit-wide rules** \n\n\nAnything that
+        violates the rules of reddit.com in whole or in part and or is not in the
+        interest of a positive community.\n\n\n\n\n&amp;nbsp;2. **Commenting with
+        unsolicited advice / opinions**\n\n\nDo not give your opinion or advice, If
+        the post is marked with the NAW (No Advice Wanted) flair, in response to an
+        unsent letter post. This is not /r/Advice. \n\nPlease, flair your post with
+        NAW if you do not want any advice.\n\n\n\n&amp;nbsp;3. **Judging Posters and
+        Posts** \n&amp;nbsp;\n\nThis sub exists as a haven to speak your mind without
+        literally having to speak your mind. Respect that posters may have needed
+        a lot of courage to type what they did. This is not a place where any poster
+        should fear criticism, ridicule, judgment, discrimination nor downvotes for
+        their submission.\n\n\n\n\n&amp;nbsp;4. **No insulting or derogatory comments**
+        \n&amp;nbsp;\n\nNo insulting or derogatory comments. No downvoting just because
+        you do not like a particular redditor or unsent letter\n\n\n\n\n&amp;nbsp;5.
+        **Report infractions, do not engage in conflict** \n\nIf there are trolling
+        comments or comments that you feel are inappropriate, do not engage in an
+        argument, tit-for-tat conflict. Hit the report button and the moderation time
+        will examine things in context. \n\n\n\n&amp;nbsp;6. **Low Effort Posts Will
+        be Deemed SPAM** \n\nLow effort letters, such as those compromised of only
+        two sentences, or which are copypasta, will be deemed SPAM and removed.\n\nModerators
+        shall have final decision-making powers in each case and are working in the
+        best interest of the entire sub.\n\n&amp;nbsp;7. **Do not pretend the letter
+        is for you** \n\nComments responding to the letter as if it''s meant for them
+        will be removed. The letters are unsent for a reason.\n\n\n&amp;nbsp;\n\n[**CLICK
+        HERE TO MESSAGE THE MODS**](https://www.reddit.com/message/compose?to=%2Fr%2FUnsentLetters)\n&amp;nbsp;\n\n&amp;nbsp;\n\n\n\n\n\n\n\n___________________________________________\nRelated
+        subreddits:\n\n* /r/MMFB\n\n* /r/breakups\n\n* /r/offmychest\n\n* /r/confession\n\n*
+        /r/unsentmusic\n\n* /r/apologizeplease \n\n* /r/diaryofaredditor \n___________________________________\nNEW
+        RULES:\nIf you wish to post anonymously, submit it to the mods and we will
+        post it for you.", "submit_text": "Letters must have a real, intended recipient.
+        Letters to your self should be posted to /r/offmychest. Letters to large groups
+        of people will be removed. Song lyrics and youtube links should go to /r/unsentmusic.
+        Poetry is better off in /r/OCPoetry.", "display_name": "UnsentLetters", "header_img":
+        null, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a
+        href=\"https://www.reddit.com/r/ProCSS/\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;We&amp;#39;ve
+        all had times where we&amp;#39;ve wanted to spill the beans to someone, be
+        they bad or good, but never did or can&amp;#39;t for whatever reasons. Post
+        a letter here, whether it&amp;#39;s a Thank You note or something not so happy.&lt;/p&gt;\n\n&lt;p&gt;Letter
+        to an ex? Mad at the parents? Roommates getting to you? Thankful but can&amp;#39;t
+        express it?&lt;/p&gt;\n\n&lt;p&gt;This is the place to say what needs to be
+        said. &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&lt;strong&gt;It doesn&amp;#39;t
+        have to be said, but please be nice. Unnecessary, nasty comments will be STRICTLY
+        moderated.&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Don&amp;#39;t
+        be a jerk.&lt;/strong&gt;\n&amp;nbsp;&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;RULES:&lt;/strong&gt;
+        &lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;1. &lt;strong&gt;Any violation of Reddit-wide
+        rules&lt;/strong&gt; &lt;/p&gt;\n\n&lt;p&gt;Anything that violates the rules
+        of reddit.com in whole or in part and or is not in the interest of a positive
+        community.&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;2. &lt;strong&gt;Commenting with
+        unsolicited advice / opinions&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;Do not
+        give your opinion or advice, If the post is marked with the NAW (No Advice
+        Wanted) flair, in response to an unsent letter post. This is not &lt;a href=\"/r/Advice\"&gt;/r/Advice&lt;/a&gt;.
+        &lt;/p&gt;\n\n&lt;p&gt;Please, flair your post with NAW if you do not want
+        any advice.&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;3. &lt;strong&gt;Judging Posters
+        and Posts&lt;/strong&gt; \n&amp;nbsp;&lt;/p&gt;\n\n&lt;p&gt;This sub exists
+        as a haven to speak your mind without literally having to speak your mind.
+        Respect that posters may have needed a lot of courage to type what they did.
+        This is not a place where any poster should fear criticism, ridicule, judgment,
+        discrimination nor downvotes for their submission.&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;4.
+        &lt;strong&gt;No insulting or derogatory comments&lt;/strong&gt; \n&amp;nbsp;&lt;/p&gt;\n\n&lt;p&gt;No
+        insulting or derogatory comments. No downvoting just because you do not like
+        a particular redditor or unsent letter&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;5.
+        &lt;strong&gt;Report infractions, do not engage in conflict&lt;/strong&gt;
+        &lt;/p&gt;\n\n&lt;p&gt;If there are trolling comments or comments that you
+        feel are inappropriate, do not engage in an argument, tit-for-tat conflict.
+        Hit the report button and the moderation time will examine things in context.
+        &lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;6. &lt;strong&gt;Low Effort Posts Will be
+        Deemed SPAM&lt;/strong&gt; &lt;/p&gt;\n\n&lt;p&gt;Low effort letters, such
+        as those compromised of only two sentences, or which are copypasta, will be
+        deemed SPAM and removed.&lt;/p&gt;\n\n&lt;p&gt;Moderators shall have final
+        decision-making powers in each case and are working in the best interest of
+        the entire sub.&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;7. &lt;strong&gt;Do not pretend
+        the letter is for you&lt;/strong&gt; &lt;/p&gt;\n\n&lt;p&gt;Comments responding
+        to the letter as if it&amp;#39;s meant for them will be removed. The letters
+        are unsent for a reason.&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://www.reddit.com/message/compose?to=%2Fr%2FUnsentLetters\"&gt;&lt;strong&gt;CLICK
+        HERE TO MESSAGE THE MODS&lt;/strong&gt;&lt;/a&gt;\n&amp;nbsp;&lt;/p&gt;\n\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;Related
+        subreddits:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;p&gt;&lt;a href=\"/r/MMFB\"&gt;/r/MMFB&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"/r/breakups\"&gt;/r/breakups&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"/r/offmychest\"&gt;/r/offmychest&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"/r/confession\"&gt;/r/confession&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"/r/unsentmusic\"&gt;/r/unsentmusic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"/r/apologizeplease\"&gt;/r/apologizeplease&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;&lt;a
+        href=\"/r/diaryofaredditor\"&gt;/r/diaryofaredditor&lt;/a&gt; &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;NEW
+        RULES:\nIf you wish to post anonymously, submit it to the mods and we will
+        post it for you.&lt;/p&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;", "title": "Things you wish you could say to them.", "collapse_deleted_comments":
+        true, "public_description": "", "over18": false, "public_description_html":
+        null, "spoilers_enabled": true, "icon_size": null, "suggested_comment_sort":
+        null, "active_user_count": 75, "icon_img": "", "header_title": null, "display_name_prefixed":
+        "r/UnsentLetters", "user_is_muted": null, "submit_link_label": null, "accounts_active":
+        75, "public_traffic": false, "header_size": null, "subscribers": 25911, "submit_text_label":
+        null, "key_color": "#a06a42", "lang": "en", "whitelist_status": "all_ads",
+        "name": "t5_2seir", "created": 1301524786.0, "url": "/r/UnsentLetters/", "quarantine":
+        false, "hide_ads": false, "created_utc": 1301495986.0, "banner_size": null,
+        "user_is_moderator": null, "accounts_active_is_fuzzed": false, "advertiser_category":
+        null, "user_sr_theme_enabled": true, "allow_images": true, "show_media_preview":
+        true, "comment_score_hide_mins": 720, "subreddit_type": "public", "submission_type":
+        "self", "user_is_subscriber": null}}'
+    http_version: 
+  recorded_at: Sun, 25 Jun 2017 12:56:11 GMT
+- request:
+    method: get
+    uri: https://www.reddit.com/r/UnsentLetters/new.json?limit=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=GBib70TO90u2MwIiXW; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=0000000000053cv5lp.2.1498395372223.Z0FBQUFBQlpUN0xzNkRReHRTLWhlTmcyTloxbW1QT3A0VGhNYnprdGZ4MW83dlBGYWx3SWZjRTUwRkVBWmRtTFNtTy12a2IzQkt0MFh1QnJBeWRRSlEyakVqbmxBQ2hsZzljQzliQWVydmt3X1ZfdjFMYUZLQk5ZQVNjRlBhUzJSU3ZEMFlVakdkYng;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Tue, 25-Jun-2019 12:56:12
+        GMT; secure
+      - session_tracker=wYbHNZAmP6vBFfxXOp.0.1498395372219.Z0FBQUFBQlpUN0xzMnRqSl9EZUZiekVUdElSUnlxNmNNcEFUZlVYVkpfd0RzM0M4bDZhUEtjSVgyZFBXcnFxUWZGODZRS0p0Q3ZDTkhvQmluOHljZnVjZmJOTzREQjlsa0ZGYk1ILWVjS0djWkthX0NMQ2NJMXZUc09CNG5JbFV3YlQyX3RuUjA5akM;
+        Domain=reddit.com; Max-Age=7199; Path=/; expires=Sun, 25-Jun-2017 14:56:12
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=TXWKkHoZ4DGWu0fkaIMHxjQVYXB92hTkCTb5w1c7%2FYprWF8FOECKsPaFdRRMAhuEypfgX%2BB7jdpV6Ew0y6qvsURHSQkT%2F87w
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '819'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 25 Jun 2017 12:56:12 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-hhn1546-HHN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1498395372.170434,VS0,VE126
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+        "data": {"contest_mode": false, "subreddit_name_prefixed": "r/UnsentLetters",
+        "banned_by": null, "media_embed": {}, "thumbnail_width": null, "subreddit":
+        "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;my
+        eyes hurt when i remember how bright it was then. the memories are blinding
+        me inside out. i don&amp;#39;t want to look at it anymore but I can&amp;#39;t
+        just forget the sun.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "my eyes hurt when i remember how bright it was then. the memories are blinding
+        me inside out. i don''t want to look at it anymore but I can''t just forget
+        the sun.", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "6je0sw", "view_count": null, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "pictureyou", "saved":
+        false, "mod_reports": [], "name": "t3_6je0sw", "score": 1, "approved_by":
+        null, "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": true, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6je0sw/remembering_you/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498421613.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6je0sw/remembering_you/",
+        "author_flair_text": null, "quarantine": false, "title": "remembering you",
+        "created_utc": 1498392813.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 1}}], "after": "t3_6je0sw", "before": null}}'
+    http_version: 
+  recorded_at: Sun, 25 Jun 2017 12:56:12 GMT
+recorded_with: VCR 3.0.3

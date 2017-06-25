@@ -1,0 +1,1445 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/UnsentLetters/new.json?limit=25
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=iKYJXSCJjBnr2vS16v; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=0000000000053apurk.2.1498393762388.Z0FBQUFBQlpUNnlpd0tmZy02RGRWT0FrN3l5c3BsRGJmYmwxTXg5ejZ0UVk1UGl6YWJXM2g1VjJaQnRFOEUzTFlYdUF4eDZ1U21WSTBySXlOMWRNU1lzUTAzTURveEY5bHpSRVVEalFWbjFBc2xKcnM1V3RhampkRXoxaHVWLVJGODFYREpBaHBnMWo;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Tue, 25-Jun-2019 12:29:22
+        GMT; secure
+      - session_tracker=RtL6g6XZwUX9fANj5j.0.1498393762384.Z0FBQUFBQlpUNnlpcGh3cDdORWh3T2JzTGlTNXlRcEdTT0k4NUFacmljblpOYVZvWWpxN2xzTDJhbkI3RTlxTDN5Q3M1cUtJZWM4Y256eFJpOUV5MnhJSE1GNGFGSlczNHBuX3VzSE9oZzBRQVFCRkFGT092cFppalJ2UC0wb0pyMko1M0hONi01Yks;
+        Domain=reddit.com; Max-Age=7199; Path=/; expires=Sun, 25-Jun-2017 14:29:22
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=LjcEncOpnvoanWePyUNHvg9JiFjmTy92AeSaeU%2FqctoQARHyPxpXiq4BOw6E3EH4UKEeCKVPkU1%2BKwhYSnjOE2fkAW97w%2Fm9
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '19720'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 25 Jun 2017 12:29:22 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-hhn1541-HHN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1498393762.325064,VS0,VE295
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+        "data": {"contest_mode": false, "subreddit_name_prefixed": "r/UnsentLetters",
+        "banned_by": null, "media_embed": {}, "thumbnail_width": null, "subreddit":
+        "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;my
+        eyes hurt when i remember how bright it was then. the memories are blinding
+        me inside out. i don&amp;#39;t want to look at it anymore but I can&amp;#39;t
+        just forget the sun.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "my eyes hurt when i remember how bright it was then. the memories are blinding
+        me inside out. i don''t want to look at it anymore but I can''t just forget
+        the sun.", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "6je0sw", "view_count": null, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "pictureyou", "saved":
+        false, "mod_reports": [], "name": "t3_6je0sw", "score": 1, "approved_by":
+        null, "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": true, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6je0sw/remembering_you/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498421613.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6je0sw/remembering_you/",
+        "author_flair_text": null, "quarantine": false, "title": "remembering you",
+        "created_utc": 1498392813.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I love you. I have for a while now. And nothing breaks
+        my heart more than knowing that you will never be mine or I yours. Tonight
+        you uttered the words &amp;quot;I&amp;#39;m not looking for your company.
+        It is not you who I want here&amp;quot; And my heart broke, so I left. I left
+        and tried forcing my heart to grow a little colder, a little more like stone
+        so that next time I see you it won&amp;#39;t be alive to attempt breaking
+        through my chest. And I want to stop. I want to stop loving you. Want to stop
+        caring about you. Make it all stop. Because you&amp;#39;re magic. And magic
+        girls like you are known for breaking the hearts of girls like me. &lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I love you. I have for a while now. And nothing
+        breaks my heart more than knowing that you will never be mine or I yours.
+        Tonight you uttered the words \"I''m not looking for your company. It is not
+        you who I want here\" And my heart broke, so I left. I left and tried forcing
+        my heart to grow a little colder, a little more like stone so that next time
+        I see you it won''t be alive to attempt breaking through my chest. And I want
+        to stop. I want to stop loving you. Want to stop caring about you. Make it
+        all stop. Because you''re magic. And magic girls like you are known for breaking
+        the hearts of girls like me. ", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "6jdx82", "view_count":
+        null, "secure_media_embed": {}, "clicked": false, "report_reasons": null,
+        "author": "Cool_stitch", "saved": false, "mod_reports": [], "name": "t3_6jdx82",
+        "score": 1, "approved_by": null, "over_18": false, "domain": "self.UnsentLetters",
+        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2seir", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "gilded":
+        0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason": null,
+        "can_gild": false, "thumbnail_height": null, "hide_score": true, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdx82/unrequited_love/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498420071.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdx82/unrequited_love/",
+        "author_flair_text": null, "quarantine": false, "title": "Unrequited Love",
+        "created_utc": 1498391271.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;That&amp;#39;s how long it been my little hummingbird.
+        Five long years, one thousand ninety-five days and nights. Countless bottles
+        of liquor, uncountalbe of hours of self-hatred and five long years and yet
+        for some damn reason I can&amp;#39;t rid myself of your face. I meet someone
+        new. You would be pissed, she is one of those chicks we use to make so much
+        fun off. You know, the im not a hippie but am actually a hippie type. We have
+        been dating for awhile now Mar. Her name is Lauren, you would hate her. She
+        is the only thing helping me right now. She helps me on the nights when I
+        wake up from another nightmare of seeing you in that damn bed with the blood
+        everywhere. Her family is amazing to. Speaking of family I saw your sister
+        not to long ago. She still blames me. Your mom to, probably your brother as
+        well but who cares what that waste of genetic potiantal thinks. He is in prison
+        again btw, drugs, who woulda thought right? Yea. I dont blame myself anymore
+        mar, and im sorry about that. I blamed myself for five damn years, five long
+        years but goddamnit it was not my fault. \nYou made your own damn choice,
+        and it wasn&amp;#39;t my fault goddamnit. \nI miss you my hummingbird, but
+        it wasn&amp;#39;t my fault, but it will be the biggest what if of my life.
+        Goodbye Maricia .&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "That''s how long it been my little hummingbird. Five long years, one thousand
+        ninety-five days and nights. Countless bottles of liquor, uncountalbe of hours
+        of self-hatred and five long years and yet for some damn reason I can''t rid
+        myself of your face. I meet someone new. You would be pissed, she is one of
+        those chicks we use to make so much fun off. You know, the im not a hippie
+        but am actually a hippie type. We have been dating for awhile now Mar. Her
+        name is Lauren, you would hate her. She is the only thing helping me right
+        now. She helps me on the nights when I wake up from another nightmare of seeing
+        you in that damn bed with the blood everywhere. Her family is amazing to.
+        Speaking of family I saw your sister not to long ago. She still blames me.
+        Your mom to, probably your brother as well but who cares what that waste of
+        genetic potiantal thinks. He is in prison again btw, drugs, who woulda thought
+        right? Yea. I dont blame myself anymore mar, and im sorry about that. I blamed
+        myself for five damn years, five long years but goddamnit it was not my fault.
+        \nYou made your own damn choice, and it wasn''t my fault goddamnit. \nI miss
+        you my hummingbird, but it wasn''t my fault, but it will be the biggest what
+        if of my life. Goodbye Maricia .", "likes": null, "suggested_sort": null,
+        "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "6jdria",
+        "view_count": null, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "TheDrunkDwarf", "saved": false, "mod_reports": [], "name":
+        "t3_6jdria", "score": 2, "approved_by": null, "over_18": false, "domain":
+        "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": true, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdria/5_years/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498417061.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdria/5_years/", "author_flair_text":
+        null, "quarantine": false, "title": "5 Years...", "created_utc": 1498388261.0,
+        "distinguished": null, "media": null, "num_comments": 0, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 2}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I miss that easy intimacy of a word or a sentence
+        being like a match to kindling between us, then sitting back and watching
+        the fire grow.  I miss having someone who knows me like the back of their
+        own hand, who never misses a beat, who seems to know what I need before even
+        I know myself.  I miss our safe place and the complete trust that came along
+        with it.  No-one gets me like you, not before you, and I can&amp;#39;t imagine
+        opening up to another person like I did you.&lt;/p&gt;\n\n&lt;p&gt;I miss
+        being needed. I didn&amp;#39;t quite realise how precious it was to have someone,
+        just one person in my life, who I could please so easily.  I know your neediness
+        at times made you so uncomfortable, but I miss it too.  I miss needing you
+        like air, or water, always desperate for more just to survive.  &lt;/p&gt;\n\n&lt;p&gt;I
+        miss the breaks being short and relatively predictable.  I miss the certainty
+        that you&amp;#39;d come back.  I miss our long reconnecting chats that cleared
+        the air and grounded us.&lt;/p&gt;\n\n&lt;p&gt;I miss your exclamation marks.&lt;/p&gt;\n\n&lt;p&gt;I
+        miss us, and the you I knew, before this all went so horribly wrong.&lt;/p&gt;\n\n&lt;p&gt;This
+        probably sounds dumb and inauthentic.  It&amp;#39;s not what you wanted to
+        hear, I know.  But I am trying.  Please know I am trying.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I miss that easy intimacy of a word or a sentence
+        being like a match to kindling between us, then sitting back and watching
+        the fire grow.  I miss having someone who knows me like the back of their
+        own hand, who never misses a beat, who seems to know what I need before even
+        I know myself.  I miss our safe place and the complete trust that came along
+        with it.  No-one gets me like you, not before you, and I can''t imagine opening
+        up to another person like I did you.\n\nI miss being needed. I didn''t quite
+        realise how precious it was to have someone, just one person in my life, who
+        I could please so easily.  I know your neediness at times made you so uncomfortable,
+        but I miss it too.  I miss needing you like air, or water, always desperate
+        for more just to survive.  \n\nI miss the breaks being short and relatively
+        predictable.  I miss the certainty that you''d come back.  I miss our long
+        reconnecting chats that cleared the air and grounded us.\n\nI miss your exclamation
+        marks.\n\nI miss us, and the you I knew, before this all went so horribly
+        wrong.\n\nThis probably sounds dumb and inauthentic.  It''s not what you wanted
+        to hear, I know.  But I am trying.  Please know I am trying.", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "6jdo03", "view_count": null, "secure_media_embed": {}, "clicked":
+        false, "report_reasons": null, "author": "lulalay", "saved": false, "mod_reports":
+        [], "name": "t3_6jdo03", "score": 3, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": 1498386857.0, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdo03/i_miss_you_part_two/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498415040.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jdo03/i_miss_you_part_two/",
+        "author_flair_text": null, "quarantine": false, "title": "I miss you, part
+        two", "created_utc": 1498386240.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 3}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I wish I could see you again.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m
+        not sure whether you&amp;#39;re alive. I&amp;#39;m not sure where you are,
+        because we drifted apart so violently and I never even got to see you go.
+        &lt;/p&gt;\n\n&lt;p&gt;You made everything worth it, for a while.&lt;/p&gt;\n\n&lt;p&gt;You
+        taught me a lot of things, and I&amp;#39;m glad I knew you. I&amp;#39;m really
+        fucking glad I knew you, and nothing could ever make me regret that. The pain,
+        even, could never make me regret that.&lt;/p&gt;\n\n&lt;p&gt;I hope you&amp;#39;re
+        okay, wherever you are. &lt;/p&gt;\n\n&lt;p&gt;I hope you know that I still
+        look out for our stars in the sky. I usually can&amp;#39;t see them. Sometimes
+        I think this is a sign, that you must be gone, but I doubt it. I just don&amp;#39;t
+        look as hard anymore.&lt;/p&gt;\n\n&lt;p&gt;If you are gone, then I&amp;#39;m
+        sorry.&lt;/p&gt;\n\n&lt;p&gt;I wish I&amp;#39;d have known so I could have
+        got those flowers for you. I&amp;#39;m the only one that knew which song you
+        wanted them to play. \nAnd I wanted to talk about you. There would have been
+        so, so much to say.&lt;/p&gt;\n\n&lt;p&gt;Maybe a stupid part of me is hoping
+        that you&amp;#39;ll see this, somehow.&lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t
+        even know where you are.&lt;/p&gt;\n\n&lt;p&gt;I just wish it was with me.&lt;/p&gt;\n\n&lt;p&gt;And
+        if you&amp;#39;re better somewhere, then I&amp;#39;m sorry. I will be going
+        before you. I want you to know. I just want you here again,&lt;/p&gt;\n\n&lt;p&gt;for
+        I have nothing&lt;/p&gt;\n\n&lt;p&gt;and I am exhausted without you,&lt;/p&gt;\n\n&lt;p&gt;wherever
+        you may be,&lt;/p&gt;\n\n&lt;p&gt;and i just want you to tell me something
+        good again.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "I wish
+        I could see you again.\n\nI''m not sure whether you''re alive. I''m not sure
+        where you are, because we drifted apart so violently and I never even got
+        to see you go. \n\nYou made everything worth it, for a while.\n\nYou taught
+        me a lot of things, and I''m glad I knew you. I''m really fucking glad I knew
+        you, and nothing could ever make me regret that. The pain, even, could never
+        make me regret that.\n\nI hope you''re okay, wherever you are. \n\nI hope
+        you know that I still look out for our stars in the sky. I usually can''t
+        see them. Sometimes I think this is a sign, that you must be gone, but I doubt
+        it. I just don''t look as hard anymore.\n\nIf you are gone, then I''m sorry.\n\nI
+        wish I''d have known so I could have got those flowers for you. I''m the only
+        one that knew which song you wanted them to play. \nAnd I wanted to talk about
+        you. There would have been so, so much to say.\n\nMaybe a stupid part of me
+        is hoping that you''ll see this, somehow.\n\nI don''t even know where you
+        are.\n\nI just wish it was with me.\n\nAnd if you''re better somewhere, then
+        I''m sorry. I will be going before you. I want you to know. I just want you
+        here again,\n\nfor I have nothing\n\nand I am exhausted without you,\n\nwherever
+        you may be,\n\nand i just want you to tell me something good again.", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "6jdnqa", "view_count": null, "secure_media_embed": {}, "clicked":
+        false, "report_reasons": null, "author": "someeyes", "saved": false, "mod_reports":
+        [], "name": "t3_6jdnqa", "score": 1, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": 1498386358.0, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdnqa/zara/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498414871.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdnqa/zara/", "author_flair_text":
+        null, "quarantine": false, "title": "Zara", "created_utc": 1498386071.0, "distinguished":
+        null, "media": null, "num_comments": 0, "is_self": true, "visited": false,
+        "subreddit_type": "public", "is_video": false, "ups": 1}}, {"kind": "t3",
+        "data": {"contest_mode": false, "subreddit_name_prefixed": "r/UnsentLetters",
+        "banned_by": null, "media_embed": {}, "thumbnail_width": null, "subreddit":
+        "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I
+        stayed too long, I let you do what you wanted too long, I hated myself but
+        I loved you.\nAnd you were so, so happy. \n2 years and here I am\nAlone but
+        whole,\nHere and so, so happy, \nAnd you&amp;#39;re developing drinking problems
+        with the guys you hated in high school,\nAnd making out with girls who won&amp;#39;t
+        text you back.\nYou&amp;#39;re hurting so badly and I feel responsible.\nBecause
+        I left you despite how happy you were, \nDespite how much I loved you. \nYou
+        learn pretty young that relationships don&amp;#39;t rest on just love.\nI
+        found out that the more I gave to you the less there was of me\nAnd now when
+        I&amp;#39;m ok, you&amp;#39;re hurt.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;", "selftext": "I stayed too long, I let you do what you wanted too
+        long, I hated myself but I loved you.\nAnd you were so, so happy. \n2 years
+        and here I am\nAlone but whole,\nHere and so, so happy, \nAnd you''re developing
+        drinking problems with the guys you hated in high school,\nAnd making out
+        with girls who won''t text you back.\nYou''re hurting so badly and I feel
+        responsible.\nBecause I left you despite how happy you were, \nDespite how
+        much I loved you. \nYou learn pretty young that relationships don''t rest
+        on just love.\nI found out that the more I gave to you the less there was
+        of me\nAnd now when I''m ok, you''re hurt.", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6jdhqi", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "izzadorr", "saved": false, "mod_reports":
+        [], "name": "t3_6jdhqi", "score": 2, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdhqi/when_im_ok_youre_hurt/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498411497.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jdhqi/when_im_ok_youre_hurt/",
+        "author_flair_text": null, "quarantine": false, "title": "When I''m ok, you''re
+        hurt", "created_utc": 1498382697.0, "distinguished": null, "media": null,
+        "num_comments": 0, "is_self": true, "visited": false, "subreddit_type": "public",
+        "is_video": false, "ups": 2}}, {"kind": "t3", "data": {"contest_mode": false,
+        "subreddit_name_prefixed": "r/UnsentLetters", "banned_by": null, "media_embed":
+        {}, "thumbnail_width": null, "subreddit": "UnsentLetters", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Fam,&lt;/p&gt;\n\n&lt;p&gt;Y&amp;#39;all
+        are wonderful and crazy. I&amp;#39;m an only child. Youngest of 6 as well.
+        My sisters and brothers arent related. I connect the families. Wow that sounds
+        crazy. I love it.&lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t like the weight of
+        tension between bloodlines, I guess I&amp;#39;ll put it that way. The females
+        and males of my siblings don&amp;#39;t communicate now that we have all moved
+        out. Extended family events make me cringe because I just don&amp;#39;t understand
+        where I fit. They are all respectful and my godmothers love the shit out of
+        me. I&amp;#39;m just awkward.&lt;/p&gt;\n\n&lt;p&gt;But they still love me.
+        That&amp;#39;s what I love about them.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m closest
+        to mom and sisters. We are all bestfriends now that I, the youngest, am adulting.
+        They are sweethearts. I mean the sweetest three women you&amp;#39;ll ever
+        meet. When I&amp;#39;m with them I sometimes reflect on my patience and attitude
+        because they are just so composed and are never rude. Like I&amp;#39;m amazed.
+        If I didn&amp;#39;t have my mom, I&amp;#39;d be like my dad and that would
+        suuuuuuuckkk. I love him though.&lt;/p&gt;\n\n&lt;p&gt;We also have always
+        been pet lovers. Dogs and cats. Mom used to say she doesn&amp;#39;t like cats.
+        Now she talks about cats all the time. She gave me my silliness. The things
+        she did that would annoy me as a teenager are becoming the things I, and others,
+        love about who I am today. What a woman. How blessed am I to have been raised
+        by her. To have my sister&amp;#39;s also be my bestfriends.&lt;/p&gt;\n\n&lt;p&gt;To
+        people who feel like they have no family, or anyone in general, I&amp;#39;m
+        happy you&amp;#39;re still here to read this. Life is hard and even harder
+        when doing it alone. I guess I&amp;#39;m here to gush over my family. But
+        also my friends who have and will become family. &lt;/p&gt;\n\n&lt;p&gt;Just
+        a shoutout to people supporting people and finding like minded individuals
+        in unlikely places. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "Fam,\n\nY''all are wonderful and crazy. I''m an only child. Youngest of 6
+        as well. My sisters and brothers arent related. I connect the families. Wow
+        that sounds crazy. I love it.\n\nI don''t like the weight of tension between
+        bloodlines, I guess I''ll put it that way. The females and males of my siblings
+        don''t communicate now that we have all moved out. Extended family events
+        make me cringe because I just don''t understand where I fit. They are all
+        respectful and my godmothers love the shit out of me. I''m just awkward.\n\nBut
+        they still love me. That''s what I love about them.\n\nI''m closest to mom
+        and sisters. We are all bestfriends now that I, the youngest, am adulting.
+        They are sweethearts. I mean the sweetest three women you''ll ever meet. When
+        I''m with them I sometimes reflect on my patience and attitude because they
+        are just so composed and are never rude. Like I''m amazed. If I didn''t have
+        my mom, I''d be like my dad and that would suuuuuuuckkk. I love him though.\n\nWe
+        also have always been pet lovers. Dogs and cats. Mom used to say she doesn''t
+        like cats. Now she talks about cats all the time. She gave me my silliness.
+        The things she did that would annoy me as a teenager are becoming the things
+        I, and others, love about who I am today. What a woman. How blessed am I to
+        have been raised by her. To have my sister''s also be my bestfriends.\n\nTo
+        people who feel like they have no family, or anyone in general, I''m happy
+        you''re still here to read this. Life is hard and even harder when doing it
+        alone. I guess I''m here to gush over my family. But also my friends who have
+        and will become family. \n\nJust a shoutout to people supporting people and
+        finding like minded individuals in unlikely places. \n\n", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "6jdhmc", "view_count": null, "secure_media_embed": {}, "clicked":
+        false, "report_reasons": null, "author": "larznation", "saved": false, "mod_reports":
+        [], "name": "t3_6jdhmc", "score": 2, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdhmc/fam/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498411421.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdhmc/fam/", "author_flair_text":
+        null, "quarantine": false, "title": "Fam,", "created_utc": 1498382621.0, "distinguished":
+        null, "media": null, "num_comments": 0, "is_self": true, "visited": false,
+        "subreddit_type": "public", "is_video": false, "ups": 2}}, {"kind": "t3",
+        "data": {"contest_mode": false, "subreddit_name_prefixed": "r/UnsentLetters",
+        "banned_by": null, "media_embed": {}, "thumbnail_width": null, "subreddit":
+        "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I
+        forgot it was your birthday until you showed up in my dreams last night. Were
+        you really there somewhere in another part of the house, having a conversation
+        waiting for me to wake up?\nWhat was the dream? Same as always.. Reconciliation.
+        There&amp;#39;s a vague notion of all the trouble that would cause us. We
+        always know it won&amp;#39;t last, but even a stolen hour is worth the following
+        avalanche.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m calling to you, Time Traveller
+        Prime. Do you remember the year of the comet? Wasn&amp;#39;t that the year
+        we got together? There was a fire in the sky. 18 months, looking after us.
+        We burnt. I had forgotten. But now, it feels like it was our chaperone. Our
+        companion. I had forgotten, You know?&lt;/p&gt;\n\n&lt;p&gt;That was magic.
+        Our first months together, a visitor from the stars, ever present in the night
+        sky.&lt;/p&gt;\n\n&lt;p&gt;I have a bad memory, I can only see things in flashes.
+        It&amp;#39;s like looking at paintings. And even though I can&amp;#39;t really
+        see your face anymore, I remember what it felt like to see you. It felt deep.
+        Every time was a heart attack. &lt;/p&gt;\n\n&lt;p&gt;Icing sugar baby. Were
+        you even real?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "I
+        forgot it was your birthday until you showed up in my dreams last night. Were
+        you really there somewhere in another part of the house, having a conversation
+        waiting for me to wake up?\nWhat was the dream? Same as always.. Reconciliation.
+        There''s a vague notion of all the trouble that would cause us. We always
+        know it won''t last, but even a stolen hour is worth the following avalanche.\n\nI''m
+        calling to you, Time Traveller Prime. Do you remember the year of the comet?
+        Wasn''t that the year we got together? There was a fire in the sky. 18 months,
+        looking after us. We burnt. I had forgotten. But now, it feels like it was
+        our chaperone. Our companion. I had forgotten, You know?\n\nThat was magic.
+        Our first months together, a visitor from the stars, ever present in the night
+        sky.\n\nI have a bad memory, I can only see things in flashes. It''s like
+        looking at paintings. And even though I can''t really see your face anymore,
+        I remember what it felt like to see you. It felt deep. Every time was a heart
+        attack. \n\nIcing sugar baby. Were you even real?\n\n\n\n\n\n", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "6jdej5", "view_count": null, "secure_media_embed": {}, "clicked":
+        false, "report_reasons": null, "author": "Love_Henry", "saved": false, "mod_reports":
+        [], "name": "t3_6jdej5", "score": 1, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdej5/were_you_even_real/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498409627.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jdej5/were_you_even_real/",
+        "author_flair_text": null, "quarantine": false, "title": "Were you even real?",
+        "created_utc": 1498380827.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I honestly don&amp;#39;t know why I can&amp;#39;t
+        stop thinking about you, it&amp;#39;s as if you&amp;#39;ve set up residence
+        in my head. Like a tenant that i&amp;#39;ve tried to evict over and over again
+        it proves futile. In my dreams and in my thoughts your smile shines bright,
+        It brings me solace during dark times. Lately I&amp;#39;ve felt empty and
+        devoid of all feeling but when I&amp;#39;m with you it all takes a back seat.
+        I feel like myself, I feel normal, I feel like everything is gonna be ok.
+        Imagining a life with you gives me the motivation to go on. But when you eventually
+        go, it all comes crashing down like waves. I become lost in a vast sea, drowning
+        under waves of responsibility and expectations from family and peers. Yet
+        there&amp;#39;s nothing I can do, we&amp;#39;re just kids, and we live so
+        far apart. You visit when you can but its not enough and it will never be
+        enough until i can call you mine. Until i can wake up beside you to those
+        beautiful brown eyes, until i can kiss those precious lips, until you can
+        hold me when life&amp;#39;s deathly grip fastens around my neck. I&amp;#39;ve
+        repressed these thoughts for a long time, with drugs and other meaningless
+        distractions. But after seeing you for the first time in almost a year, it
+        comes rushing back. I think I&amp;#39;m in love with you.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I honestly don''t know why I can''t stop thinking
+        about you, it''s as if you''ve set up residence in my head. Like a tenant
+        that i''ve tried to evict over and over again it proves futile. In my dreams
+        and in my thoughts your smile shines bright, It brings me solace during dark
+        times. Lately I''ve felt empty and devoid of all feeling but when I''m with
+        you it all takes a back seat. I feel like myself, I feel normal, I feel like
+        everything is gonna be ok. Imagining a life with you gives me the motivation
+        to go on. But when you eventually go, it all comes crashing down like waves.
+        I become lost in a vast sea, drowning under waves of responsibility and expectations
+        from family and peers. Yet there''s nothing I can do, we''re just kids, and
+        we live so far apart. You visit when you can but its not enough and it will
+        never be enough until i can call you mine. Until i can wake up beside you
+        to those beautiful brown eyes, until i can kiss those precious lips, until
+        you can hold me when life''s deathly grip fastens around my neck. I''ve repressed
+        these thoughts for a long time, with drugs and other meaningless distractions.
+        But after seeing you for the first time in almost a year, it comes rushing
+        back. I think I''m in love with you.", "likes": null, "suggested_sort": null,
+        "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "6jdav9",
+        "view_count": null, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "majorsuckage", "saved": false, "mod_reports": [], "name":
+        "t3_6jdav9", "score": 2, "approved_by": null, "over_18": false, "domain":
+        "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdav9/teenage_angst/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498407413.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdav9/teenage_angst/", "author_flair_text":
+        null, "quarantine": false, "title": "Teenage Angst", "created_utc": 1498378613.0,
+        "distinguished": null, "media": null, "num_comments": 0, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 2}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I wish I could figure out what it is about you that
+        draws me in so much. We&amp;#39;ve both got dark souls, though I sometimes
+        feel like you think you&amp;#39;ve got me beat. And maybe in some aspects
+        you do. But this isn&amp;#39;t a game to be won. Our lives are our own; I
+        can&amp;#39;t compare my misery to yours, and you can&amp;#39;t compare yours
+        to mine. That&amp;#39;s the horrifying beauty of it. They&amp;#39;re ours,
+        and ours alone. &lt;/p&gt;\n\n&lt;p&gt;And when we combine ourselves, god,
+        I feel free of it. Just for a little bit. I can forget my pain and sorrow
+        and just feel you, inside and out. Your skin is salty. You smell of spice
+        and smoke. You whisper with your raspy voice against my ear, your beard scratching
+        my skin, your hand on my throat. It sends shivers down my spine and through
+        my toes. My own little slice of heaven. When I run my fingers down your back
+        and moan in your ear so only you can hear, is it your little slice too? I
+        want to know, but I&amp;#39;m afraid to ask. It&amp;#39;s such a corny question.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;ve
+        been imagining what we would be like in a relationship. I know that&amp;#39;s
+        not what we started this as. There were never any ground rules, but it was
+        never my intention to go down that route. Still, it&amp;#39;s where I&amp;#39;m
+        at now. And the sad thing is that I don&amp;#39;t see it ending well. We both
+        have so many things to work on with ourselves that if we were together we&amp;#39;d
+        end up tearing each other apart. I don&amp;#39;t want that. I just want you.&lt;/p&gt;\n\n&lt;p&gt;So
+        maybe it&amp;#39;s selfish, but I&amp;#39;ll keep going with what we have.
+        I&amp;#39;ll take any part of you I can get, so long as you&amp;#39;ll give
+        it. I don&amp;#39;t want to give up my slice of heaven just yet.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I wish I could figure out what it is about you
+        that draws me in so much. We''ve both got dark souls, though I sometimes feel
+        like you think you''ve got me beat. And maybe in some aspects you do. But
+        this isn''t a game to be won. Our lives are our own; I can''t compare my misery
+        to yours, and you can''t compare yours to mine. That''s the horrifying beauty
+        of it. They''re ours, and ours alone. \n\nAnd when we combine ourselves, god,
+        I feel free of it. Just for a little bit. I can forget my pain and sorrow
+        and just feel you, inside and out. Your skin is salty. You smell of spice
+        and smoke. You whisper with your raspy voice against my ear, your beard scratching
+        my skin, your hand on my throat. It sends shivers down my spine and through
+        my toes. My own little slice of heaven. When I run my fingers down your back
+        and moan in your ear so only you can hear, is it your little slice too? I
+        want to know, but I''m afraid to ask. It''s such a corny question.\n\nI''ve
+        been imagining what we would be like in a relationship. I know that''s not
+        what we started this as. There were never any ground rules, but it was never
+        my intention to go down that route. Still, it''s where I''m at now. And the
+        sad thing is that I don''t see it ending well. We both have so many things
+        to work on with ourselves that if we were together we''d end up tearing each
+        other apart. I don''t want that. I just want you.\n\nSo maybe it''s selfish,
+        but I''ll keep going with what we have. I''ll take any part of you I can get,
+        so long as you''ll give it. I don''t want to give up my slice of heaven just
+        yet.", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "6jd7xq", "view_count": null, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "SquiddlyFace", "saved":
+        false, "mod_reports": [], "name": "t3_6jd7xq", "score": 3, "approved_by":
+        null, "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": false, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6jd7xq/not_yet/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498405781.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jd7xq/not_yet/",
+        "author_flair_text": null, "quarantine": false, "title": "Not yet.", "created_utc":
+        1498376981.0, "distinguished": null, "media": null, "num_comments": 0, "is_self":
+        true, "visited": false, "subreddit_type": "public", "is_video": false, "ups":
+        3}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;fuck the hours i&amp;#39;ve spent trying to think
+        of beautiful words to put together into pretentious, artsy poetry\nfuck the
+        days spent in front of my computer hoping to find the perfect chords and notes
+        to string together so that one day, even for just the briefest of moments,
+        you&amp;#39;ll hear them and remember exactly how you felt that night i first
+        told you i loved you\nfuck the nights where i couldn&amp;#39;t help but be
+        overwhelmed by memories of your grace, your beauty, your pain, your hatred,
+        your tears, and your ability to forget our love while i struggled every second
+        to breathe knowing that i lost you forever\nfuck the alcohol i use not only
+        to pass out so as to avoid crying over you but also to kill as many brain
+        cells as possible, hoping the memories will disappear by the time i awake
+        \nfuck the pictures i still have of us that i cant help but stare at for hours,
+        the ones that force me to remember how i had never been happier than i was
+        when you held me near your heart, and how i have never felt any sort of joy
+        that comes even close to that which i felt when i was with you\nfuck the everlasting
+        chill i feel in my fingers, in my toes, in my arms, the one that can only
+        be warmed by your embrace and love\nfuck me for accepting that i will have
+        to force myself forward through every year, every day, every moment because
+        i will never love like i loved you, and i will never feel as loved as you
+        made me feel, and that i will never be able to show you that i can be better,
+        and that i will never be able to be close enough to you to heal any scars
+        i gave you or make up for every moment during which you felt sorrow or pain
+        because of me\nfuck throwaway accounts and not putting names in these letters.
+        though you&amp;#39;ll never receive this message from me directly, perhaps
+        you will happen upon it one day when you&amp;#39;ve long forgotten my existence
+        and then be reminded of the stupid kid you loved in high school and how toxic
+        our relationship was and how happy you have become since those days we spent
+        holding each other without knowing how fucked we were\nif that day ever comes,
+        rest assured you will not have to wonder what i have been up to or how i have
+        been. because i&amp;#39;ll tell you now that i&amp;#39;ve been thinking of
+        you constantly and that no matter how ok my life will seem, it will never
+        be as good as it was when i was with you. &lt;/p&gt;\n\n&lt;p&gt;jack&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "\n\nfuck the hours i''ve spent trying to think
+        of beautiful words to put together into pretentious, artsy poetry\nfuck the
+        days spent in front of my computer hoping to find the perfect chords and notes
+        to string together so that one day, even for just the briefest of moments,
+        you''ll hear them and remember exactly how you felt that night i first told
+        you i loved you\nfuck the nights where i couldn''t help but be overwhelmed
+        by memories of your grace, your beauty, your pain, your hatred, your tears,
+        and your ability to forget our love while i struggled every second to breathe
+        knowing that i lost you forever\nfuck the alcohol i use not only to pass out
+        so as to avoid crying over you but also to kill as many brain cells as possible,
+        hoping the memories will disappear by the time i awake \nfuck the pictures
+        i still have of us that i cant help but stare at for hours, the ones that
+        force me to remember how i had never been happier than i was when you held
+        me near your heart, and how i have never felt any sort of joy that comes even
+        close to that which i felt when i was with you\nfuck the everlasting chill
+        i feel in my fingers, in my toes, in my arms, the one that can only be warmed
+        by your embrace and love\nfuck me for accepting that i will have to force
+        myself forward through every year, every day, every moment because i will
+        never love like i loved you, and i will never feel as loved as you made me
+        feel, and that i will never be able to show you that i can be better, and
+        that i will never be able to be close enough to you to heal any scars i gave
+        you or make up for every moment during which you felt sorrow or pain because
+        of me\nfuck throwaway accounts and not putting names in these letters. though
+        you''ll never receive this message from me directly, perhaps you will happen
+        upon it one day when you''ve long forgotten my existence and then be reminded
+        of the stupid kid you loved in high school and how toxic our relationship
+        was and how happy you have become since those days we spent holding each other
+        without knowing how fucked we were\nif that day ever comes, rest assured you
+        will not have to wonder what i have been up to or how i have been. because
+        i''ll tell you now that i''ve been thinking of you constantly and that no
+        matter how ok my life will seem, it will never be as good as it was when i
+        was with you. \n\njack", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "6jd6jt", "view_count":
+        null, "secure_media_embed": {}, "clicked": false, "report_reasons": null,
+        "author": "goldensunni", "saved": false, "mod_reports": [], "name": "t3_6jd6jt",
+        "score": 5, "approved_by": null, "over_18": false, "domain": "self.UnsentLetters",
+        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2seir", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "gilded":
+        0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason": null,
+        "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jd6jt/for_you_sef/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498404947.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jd6jt/for_you_sef/", "author_flair_text":
+        null, "quarantine": false, "title": "For You, Sef", "created_utc": 1498376147.0,
+        "distinguished": null, "media": null, "num_comments": 0, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 5}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;You know if you were to contact me just once and
+        be civil or even &lt;em&gt;gasp&lt;/em&gt; apologize then I would be accepting
+        and responsive. There have been so many things you&amp;#39;ve lied to me about.
+        Most of those things you know I have forgiven you for. If you&amp;#39;d just
+        own up to what you really want, mean, feel, have done, then you KNOW I am
+        such an understanding person that I would forgive and try to forget because
+        I believe in you and I would love for there to be a real us again. Though
+        you confuse me with what you want. Do you want to be with me or not? You tell
+        me you love me and let me spend time with your kid and then you disappear
+        abruptly again.  What is happening? Even if you don&amp;#39;t know yourself
+        it&amp;#39;d be nice to hear that. But hey, maybe I&amp;#39;m tooting my own
+        horn and you genuinely don&amp;#39;t give a fuck. Maybe you never actually
+        did.  I wish I knew so I could be patient and fix things or move on and let
+        you go.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "You know
+        if you were to contact me just once and be civil or even *gasp* apologize
+        then I would be accepting and responsive. There have been so many things you''ve
+        lied to me about. Most of those things you know I have forgiven you for. If
+        you''d just own up to what you really want, mean, feel, have done, then you
+        KNOW I am such an understanding person that I would forgive and try to forget
+        because I believe in you and I would love for there to be a real us again.
+        Though you confuse me with what you want. Do you want to be with me or not?
+        You tell me you love me and let me spend time with your kid and then you disappear
+        abruptly again.  What is happening? Even if you don''t know yourself it''d
+        be nice to hear that. But hey, maybe I''m tooting my own horn and you genuinely
+        don''t give a fuck. Maybe you never actually did.  I wish I knew so I could
+        be patient and fix things or move on and let you go.", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6jchpt", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "Impending_Implosion", "saved": false, "mod_reports":
+        [], "name": "t3_6jchpt", "score": 5, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jchpt/please_just_be_honest_with_me/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498392935.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jchpt/please_just_be_honest_with_me/",
+        "author_flair_text": null, "quarantine": false, "title": "Please just be honest
+        with me.", "created_utc": 1498364135.0, "distinguished": null, "media": null,
+        "num_comments": 0, "is_self": true, "visited": false, "subreddit_type": "public",
+        "is_video": false, "ups": 5}}, {"kind": "t3", "data": {"contest_mode": false,
+        "subreddit_name_prefixed": "r/UnsentLetters", "banned_by": null, "media_embed":
+        {}, "thumbnail_width": null, "subreddit": "UnsentLetters", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;You were a hurricane.
+        &lt;/p&gt;\n\n&lt;p&gt;You waltzed into my life unannounced, a dreamy girl
+        with fiery passions and holes in her shoes. You came to me when neither of
+        us had much of anything, but I still gave you everything I had. &lt;/p&gt;\n\n&lt;p&gt;Looking
+        back, I know I wasn&amp;#39;t perfect. I was stubborn, I was selfish, I was
+        eager to take the high ground. &lt;/p&gt;\n\n&lt;p&gt;But you blew me off
+        to hang with guys I didn&amp;#39;t know. You answered those guy&amp;#39;s
+        doors wearing their t-shirts. You lied to me about it. &lt;/p&gt;\n\n&lt;p&gt;And
+        then, you left. &lt;/p&gt;\n\n&lt;p&gt;And I turned into a hurricane. &lt;/p&gt;\n\n&lt;p&gt;I
+        still think about you all the time. &lt;/p&gt;\n\n&lt;p&gt;And you...you left.
+        &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "You were a hurricane.
+        \n\nYou waltzed into my life unannounced, a dreamy girl with fiery passions
+        and holes in her shoes. You came to me when neither of us had much of anything,
+        but I still gave you everything I had. \n\nLooking back, I know I wasn''t
+        perfect. I was stubborn, I was selfish, I was eager to take the high ground.
+        \n\nBut you blew me off to hang with guys I didn''t know. You answered those
+        guy''s doors wearing their t-shirts. You lied to me about it. \n\nAnd then,
+        you left. \n\nAnd I turned into a hurricane. \n\nI still think about you all
+        the time. \n\nAnd you...you left. \n\n", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6jcgda", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "iaintsolonely", "saved": false, "mod_reports":
+        [], "name": "t3_6jcgda", "score": 43, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jcgda/you_left/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498392421.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jcgda/you_left/", "author_flair_text":
+        null, "quarantine": false, "title": "You left.", "created_utc": 1498363621.0,
+        "distinguished": null, "media": null, "num_comments": 3, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 43}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I type this with tears streaming down my face. &lt;/p&gt;\n\n&lt;p&gt;How
+        one day things are suddenly, with the blink of an eye, just... gone. All the
+        hard work we put into things, all the memories, all the laughs, all the good
+        times... our home.&lt;/p&gt;\n\n&lt;p&gt;It&amp;#39;s all gone.&lt;/p&gt;\n\n&lt;p&gt;You
+        were my best friend, the first in years. I told you anything. Everything.
+        I thought you had my back with absolutely anything and everything. You made
+        me feel important to someone for once in my life.&lt;/p&gt;\n\n&lt;p&gt;It&amp;#39;s
+        all gone. &lt;/p&gt;\n\n&lt;p&gt;Everything we ever worked toward, everything
+        I put my heart and soul in to, everything we ever talked about to make things
+        great for everyone...&lt;/p&gt;\n\n&lt;p&gt;It&amp;#39;s all gone. &lt;/p&gt;\n\n&lt;p&gt;You
+        became toxic, selfish, hostile, arrogant, two faced, a totally different person
+        than when I first met you. You insulted my work behind my back despite saying
+        to my face you loved it. I should of listened to my friends, hell I should&amp;#39;ve
+        even listened to my ex, when they all said you are fake, because now I realise
+        after all this, and all your fake meaningless declarations of how you think
+        I&amp;#39;m the greatest friend you ever had, then how you pull this shit
+        off and betray me, you truly are one of the most rotten, disgusting, fake
+        people I have ever met. I hate you so much.&lt;/p&gt;\n\n&lt;p&gt;You&amp;#39;re
+        all gone, and good riddance.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+        "selftext": "I type this with tears streaming down my face. \n\nHow one day
+        things are suddenly, with the blink of an eye, just... gone. All the hard
+        work we put into things, all the memories, all the laughs, all the good times...
+        our home.\n\nIt''s all gone.\n\nYou were my best friend, the first in years.
+        I told you anything. Everything. I thought you had my back with absolutely
+        anything and everything. You made me feel important to someone for once in
+        my life.\n\nIt''s all gone. \n\nEverything we ever worked toward, everything
+        I put my heart and soul in to, everything we ever talked about to make things
+        great for everyone...\n\nIt''s all gone. \n\nYou became toxic, selfish, hostile,
+        arrogant, two faced, a totally different person than when I first met you.
+        You insulted my work behind my back despite saying to my face you loved it.
+        I should of listened to my friends, hell I should''ve even listened to my
+        ex, when they all said you are fake, because now I realise after all this,
+        and all your fake meaningless declarations of how you think I''m the greatest
+        friend you ever had, then how you pull this shit off and betray me, you truly
+        are one of the most rotten, disgusting, fake people I have ever met. I hate
+        you so much.\n\nYou''re all gone, and good riddance.", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6jc75k", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "Zhoridai", "saved": false, "mod_reports":
+        [], "name": "t3_6jc75k", "score": 13, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": 1498361970.0, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jc75k/its_all_gone/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498388604.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jc75k/its_all_gone/", "author_flair_text":
+        null, "quarantine": false, "title": "It''s all gone", "created_utc": 1498359804.0,
+        "distinguished": null, "media": null, "num_comments": 3, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 13}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I gave you pause and I felt empathy. I made your
+        problems regard less of size, out problems. I built value into what I thought
+        was us. I saved you every time when asked and when not.&lt;/p&gt;\n\n&lt;p&gt;But
+        really it was never appreciated or even did you say thank you. The time we
+        have been together, before and now, you never once even bothered to learn
+        anything about me. It&amp;#39;s already been about you. If I asked do you
+        even know my favorite color? Or any detail of my life? No. By I know yours
+        because I cared enough to know.&lt;/p&gt;\n\n&lt;p&gt;You can&amp;#39;t be
+        bothered to talk to me even you can&amp;#39;t even be remotely human. But
+        you can be bothered for money. You&amp;#39;d rarely speak to me otherwise.
+        You&amp;#39;ve treated me like an ATM with unlimited funds. Then you&amp;#39;d
+        disappear. All weekend sometimes. &lt;/p&gt;\n\n&lt;p&gt;It&amp;#39;s time
+        for me to preserve what&amp;#39;s left of my self respect and dignity. No
+        longer will I be an ATM or a may for you to wipe your feet upon. I&amp;#39;m
+        sorry but I Knew a you once on a time that wasn&amp;#39;t this. Whatever this
+        is. I do miss that.  But I realize that not coming back that person was killed
+        by your selfishness and apathy.&lt;/p&gt;\n\n&lt;p&gt;I can&amp;#39;t save
+        you when their is nothing but resentment in your heart. You have to fix that
+        your self. And when you do you&amp;#39;ll look up and maybe realize that you
+        lost something important. Not only me, but you.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I gave you pause and I felt empathy. I made your
+        problems regard less of size, out problems. I built value into what I thought
+        was us. I saved you every time when asked and when not.\n\nBut really it was
+        never appreciated or even did you say thank you. The time we have been together,
+        before and now, you never once even bothered to learn anything about me. It''s
+        already been about you. If I asked do you even know my favorite color? Or
+        any detail of my life? No. By I know yours because I cared enough to know.\n\nYou
+        can''t be bothered to talk to me even you can''t even be remotely human. But
+        you can be bothered for money. You''d rarely speak to me otherwise. You''ve
+        treated me like an ATM with unlimited funds. Then you''d disappear. All weekend
+        sometimes. \n\nIt''s time for me to preserve what''s left of my self respect
+        and dignity. No longer will I be an ATM or a may for you to wipe your feet
+        upon. I''m sorry but I Knew a you once on a time that wasn''t this. Whatever
+        this is. I do miss that.  But I realize that not coming back that person was
+        killed by your selfishness and apathy.\n\nI can''t save you when their is
+        nothing but resentment in your heart. You have to fix that your self. And
+        when you do you''ll look up and maybe realize that you lost something important.
+        Not only me, but you.", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "6jc0dn", "view_count":
+        null, "secure_media_embed": {}, "clicked": false, "report_reasons": null,
+        "author": "Wavessetinmotion", "saved": false, "mod_reports": [], "name": "t3_6jc0dn",
+        "score": 2, "approved_by": null, "over_18": false, "domain": "self.UnsentLetters",
+        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2seir", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "gilded":
+        0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason": null,
+        "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jc0dn/its_about_us/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498385950.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jc0dn/its_about_us/", "author_flair_text":
+        null, "quarantine": false, "title": "It''s about us", "created_utc": 1498357150.0,
+        "distinguished": null, "media": null, "num_comments": 0, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 2}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I observe you repetitively. It&amp;#39;s like a part
+        of me is speaking, but in a different format. What you&amp;#39;re doing is
+        great and I want only success for you. However, sometimes I wonder if you&amp;#39;re
+        just a reflection of me. The only difference is that you&amp;#39;re a male.
+        There&amp;#39;s this positive feeling that I feel while going over your social
+        networking sites. The positive vibes that I feel and sense just by looking
+        at your picture. It tells me you&amp;#39;re a trustworthy person who&amp;#39;s
+        trying to make a difference in the world. Just realizing that we have same
+        goals in life, but in different fields is coincidental and I&amp;#39;m glad
+        to come across someone like you on the way. Thank you for spreading positivity
+        in this negative world. You&amp;#39;re doing a great job. I&amp;#39;m sure
+        success will reach you soon. Good luck!&lt;/p&gt;\n\n&lt;p&gt;Take care.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I observe you repetitively. It''s like a part
+        of me is speaking, but in a different format. What you''re doing is great
+        and I want only success for you. However, sometimes I wonder if you''re just
+        a reflection of me. The only difference is that you''re a male. There''s this
+        positive feeling that I feel while going over your social networking sites.
+        The positive vibes that I feel and sense just by looking at your picture.
+        It tells me you''re a trustworthy person who''s trying to make a difference
+        in the world. Just realizing that we have same goals in life, but in different
+        fields is coincidental and I''m glad to come across someone like you on the
+        way. Thank you for spreading positivity in this negative world. You''re doing
+        a great job. I''m sure success will reach you soon. Good luck!\n\nTake care.",
+        "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "6jbx66", "view_count": null, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "PearlEarrings", "saved":
+        false, "mod_reports": [], "name": "t3_6jbx66", "score": 2, "approved_by":
+        null, "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": 1498356497.0, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": false, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6jbx66/js/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498384750.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jbx66/js/", "author_flair_text":
+        null, "quarantine": false, "title": "J.S,", "created_utc": 1498355950.0, "distinguished":
+        null, "media": null, "num_comments": 0, "is_self": true, "visited": false,
+        "subreddit_type": "public", "is_video": false, "ups": 2}}, {"kind": "t3",
+        "data": {"contest_mode": false, "subreddit_name_prefixed": "r/UnsentLetters",
+        "banned_by": null, "media_embed": {}, "thumbnail_width": null, "subreddit":
+        "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;After
+        you said you didn&amp;#39;t love me anymore, while checking your watch like
+        getting to sleep was more important than giving me any sort of closure, I
+        completely broke down at work. All of our once mutual friends and you witnessed
+        the sorrow well up so high within me that I couldn&amp;#39;t breathe and had
+        to walk out with our supervisor.&lt;/p&gt;\n\n&lt;p&gt;I was proud of the
+        final email I sent you. I thought it was kind and fair and without expectation.
+        I was careful to avoid any anger or desperation. I avoided the frustrating
+        details and rehashing of our plot. I sent it to you that day and promised
+        myself it was the period at the end of us. &lt;/p&gt;\n\n&lt;p&gt;I didn&amp;#39;t
+        expect a reply. I don&amp;#39;t. But couldn&amp;#39;t you acknowledge me when
+        you walk by? I spend all day waiting to see you leave your room or your car
+        on the street. I miss you so much. I wish you&amp;#39;d just look at me &lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "After you said you didn''t love me anymore, while
+        checking your watch like getting to sleep was more important than giving me
+        any sort of closure, I completely broke down at work. All of our once mutual
+        friends and you witnessed the sorrow well up so high within me that I couldn''t
+        breathe and had to walk out with our supervisor.\n\nI was proud of the final
+        email I sent you. I thought it was kind and fair and without expectation.
+        I was careful to avoid any anger or desperation. I avoided the frustrating
+        details and rehashing of our plot. I sent it to you that day and promised
+        myself it was the period at the end of us. \n\nI didn''t expect a reply. I
+        don''t. But couldn''t you acknowledge me when you walk by? I spend all day
+        waiting to see you leave your room or your car on the street. I miss you so
+        much. I wish you''d just look at me ", "likes": null, "suggested_sort": null,
+        "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "6jbr2t",
+        "view_count": null, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "RaccoonGiraffePizza", "saved": false, "mod_reports": [],
+        "name": "t3_6jbr2t", "score": 1, "approved_by": null, "over_18": false, "domain":
+        "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jbr2t/why_cant_you_just_look_at_me/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498382410.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jbr2t/why_cant_you_just_look_at_me/",
+        "author_flair_text": null, "quarantine": false, "title": "Why can''t you just
+        look at me?", "created_utc": 1498353610.0, "distinguished": null, "media":
+        null, "num_comments": 1, "is_self": true, "visited": false, "subreddit_type":
+        "public", "is_video": false, "ups": 1}}, {"kind": "t3", "data": {"contest_mode":
+        false, "subreddit_name_prefixed": "r/UnsentLetters", "banned_by": null, "media_embed":
+        {}, "thumbnail_width": null, "subreddit": "UnsentLetters", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I wish you would freaking
+        text me. Or try to communicate at all. Fuck medicine withdrawal. I remember
+        nothing of how I lost you and I don&amp;#39;t even drink. Fuck.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m
+        doing my artsy thing and I&amp;#39;m happy. I wish you would send the &amp;quot;Good
+        morning cutie&amp;quot; that I always looked forward to. Or &amp;quot;I know
+        i don&amp;#39;t need to say good luck but good luck ;p&amp;quot;. The words
+        so simple yet genuine.  Words you made the choice to send, this is huge to
+        me. The little things. Rule #32 and all.\nBut now you choose nothing. Because
+        you don&amp;#39;t think of me and your forgetfulness of me is natural. You
+        have no malicious intentions towards me. You never were mean, even at the
+        end when I was.&lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t want to be sad. I&amp;#39;m
+        tired of fighting back stupid tears in public randomly. I&amp;#39;m tired
+        of wishing I&amp;#39;d given you a better hug and kiss the last time I saw
+        you that morning. Your shower hair. The last time before I royally fucked
+        up.&lt;/p&gt;\n\n&lt;p&gt;I know what I said hurt you.\nThat kills me. That&amp;#39;s
+        why I&amp;#39;m not angry you made the choice to forget.\nI&amp;#39;m sorry.
+        More sorry than I&amp;#39;ve ever been and you wouldn&amp;#39;t even believe
+        me if I told you. You wouldn&amp;#39;t believe anything i told you. How could
+        you. I wouldn&amp;#39;t. Maybe I&amp;#39;m rotten on the inside and it&amp;#39;s
+        time I realize it and change.&lt;/p&gt;\n\n&lt;p&gt;I miss your scruffy beard
+        and Smokey kisses. I miss someone caring about my day. Thinking of me first
+        in the morning. Someone always wanting me around, except for when we both
+        want to be alone and that&amp;#39;s perfectly fine. You don&amp;#39;t know
+        this, but I longed for your hugs and cuddles constantly but I didn&amp;#39;t
+        want to make you feel rushed. I didn&amp;#39;t know what to do. Asking usually
+        makes it worse in these situations, that&amp;#39;s why I only asked twice.&lt;/p&gt;\n\n&lt;p&gt;You
+        did so much for me. I should&amp;#39;ve done more for you, I&amp;#39;m good
+        at affection. I just worry sometimes.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m sorry.\nI
+        wish you would text me. I&amp;#39;d come over in heartbeat. Well, your heart.
+        I burned mine when I hurt the kindest person I&amp;#39;ve known. &lt;/p&gt;\n\n&lt;p&gt;I
+        know, it was only 3 months but shit how do you think couples are made. Little
+        things turn to big things.&lt;/p&gt;\n\n&lt;p&gt;We both have secrets. That&amp;#39;s
+        why we work. \nI miss your heart beating under my ear.&lt;/p&gt;\n\n&lt;p&gt;I
+        wish we could go back to the day we watched The Thing.\n-Gigglybits&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I wish you would freaking text me. Or try to communicate
+        at all. Fuck medicine withdrawal. I remember nothing of how I lost you and
+        I don''t even drink. Fuck.\n\nI''m doing my artsy thing and I''m happy. I
+        wish you would send the \"Good morning cutie\" that I always looked forward
+        to. Or \"I know i don''t need to say good luck but good luck ;p\". The words
+        so simple yet genuine.  Words you made the choice to send, this is huge to
+        me. The little things. Rule #32 and all.\nBut now you choose nothing. Because
+        you don''t think of me and your forgetfulness of me is natural. You have no
+        malicious intentions towards me. You never were mean, even at the end when
+        I was.\n\nI don''t want to be sad. I''m tired of fighting back stupid tears
+        in public randomly. I''m tired of wishing I''d given you a better hug and
+        kiss the last time I saw you that morning. Your shower hair. The last time
+        before I royally fucked up.\n\nI know what I said hurt you.\nThat kills me.
+        That''s why I''m not angry you made the choice to forget.\nI''m sorry. More
+        sorry than I''ve ever been and you wouldn''t even believe me if I told you.
+        You wouldn''t believe anything i told you. How could you. I wouldn''t. Maybe
+        I''m rotten on the inside and it''s time I realize it and change.\n\nI miss
+        your scruffy beard and Smokey kisses. I miss someone caring about my day.
+        Thinking of me first in the morning. Someone always wanting me around, except
+        for when we both want to be alone and that''s perfectly fine. You don''t know
+        this, but I longed for your hugs and cuddles constantly but I didn''t want
+        to make you feel rushed. I didn''t know what to do. Asking usually makes it
+        worse in these situations, that''s why I only asked twice.\n\nYou did so much
+        for me. I should''ve done more for you, I''m good at affection. I just worry
+        sometimes.\n\nI''m sorry.\nI wish you would text me. I''d come over in heartbeat.
+        Well, your heart. I burned mine when I hurt the kindest person I''ve known.
+        \n\nI know, it was only 3 months but shit how do you think couples are made.
+        Little things turn to big things.\n\nWe both have secrets. That''s why we
+        work. \nI miss your heart beating under my ear.\n\nI wish we could go back
+        to the day we watched The Thing.\n-Gigglybits", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6jbky3", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "larznation", "saved": false, "mod_reports":
+        [], "name": "t3_6jbky3", "score": 6, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jbky3/wish_you_would/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498380091.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jbky3/wish_you_would/",
+        "author_flair_text": null, "quarantine": false, "title": "Wish You Would",
+        "created_utc": 1498351291.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 6}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;Round and around in my head, I questioned what if.&lt;/p&gt;\n\n&lt;p&gt;So
+        here&amp;#39;s to you, my what-if girl.&lt;/p&gt;\n\n&lt;p&gt;Your Untainted
+        by big city life, sheltered &amp;amp; raised by the arts &amp;amp; love.\nBlazing
+        fire within fuelled only by compassion, which can only be compared to the
+        fiery red locks that sit oh so gracefully on your shoulders. You are Something
+        else. I yearn for conversations with you, no matter the topic or timing i&amp;#39;m
+        left hungry without them.&lt;/p&gt;\n\n&lt;p&gt;You see and strive for the
+        best in everyone and how naturally it comes to you, no jewellery nor perfume
+        could match how alluring of a quality that is. I feel great a pleasure in
+        being in your company &amp;amp; an honour to know you.&lt;/p&gt;\n\n&lt;p&gt;I
+        hope he understands how amazing you are.\nHow lucky he is his to be the first,
+        to grace those sweet lips.\nI can only deeply hope that he doesn&amp;#39;t
+        leave a bad taste and is as pure as you, because i wish nothing but happiness
+        for you.&lt;/p&gt;\n\n&lt;p&gt;Cause even when I can&amp;#39;t say &amp;quot;love
+        ya,&amp;quot; I love ya.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "Round and around in my head, I questioned what if.\n\nSo here''s to you,
+        my what-if girl.\n\nYour Untainted by big city life, sheltered &amp; raised
+        by the arts &amp; love.\nBlazing fire within fuelled only by compassion, which
+        can only be compared to the fiery red locks that sit oh so gracefully on your
+        shoulders. You are Something else. I yearn for conversations with you, no
+        matter the topic or timing i''m left hungry without them.\n\nYou see and strive
+        for the best in everyone and how naturally it comes to you, no jewellery nor
+        perfume could match how alluring of a quality that is. I feel great a pleasure
+        in being in your company &amp; an honour to know you.\n\nI hope he understands
+        how amazing you are.\nHow lucky he is his to be the first, to grace those
+        sweet lips.\nI can only deeply hope that he doesn''t leave a bad taste and
+        is as pure as you, because i wish nothing but happiness for you.\n\nCause
+        even when I can''t say \"love ya,\" I love ya.", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6jast8", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "Childlike_", "saved": false, "mod_reports":
+        [], "name": "t3_6jast8", "score": 7, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jast8/to_my_whatif_girl/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498370414.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jast8/to_my_whatif_girl/",
+        "author_flair_text": null, "quarantine": false, "title": "To my What-If Girl",
+        "created_utc": 1498341614.0, "distinguished": null, "media": null, "num_comments":
+        7, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 7}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;Dearest O,&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;ve been
+        in love with you since we first spoke. The way you made me feel that day -the
+        way you still make me feel- should have its own word, its own language. Because
+        you are a whole world yourself.&lt;/p&gt;\n\n&lt;p&gt;I won&amp;#39;t pretend
+        I don&amp;#39;t know the storm is coming. I told you how beautiful, gorgeous
+        and perfect you are. I told you I liked you and you said it was the most beautiful
+        thing anyone had ever said to you. But still you don&amp;#39;t feel that way
+        for me. &lt;/p&gt;\n\n&lt;p&gt;We&amp;#39;ll always be good friends, I know
+        that. I just wish there was more time before you left, never to come back.
+        Or that you actually liked women. I just wish there was even the slightest
+        chance to have you. &lt;/p&gt;\n\n&lt;p&gt;There isn&amp;#39;t, but I still
+        want you to know that I&amp;#39;ll always be here for you, no matter what.  No
+        matter if you never read this letter, no matter if time tears us apart like
+        an autumn leaf. It won&amp;#39;t matter. Because I&amp;#39;ll always love
+        you. And I know I&amp;#39;ll always have a friend in you.&lt;/p&gt;\n\n&lt;p&gt;Sadly
+        not yours,\nC.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "Dearest
+        O,\n\nI''ve been in love with you since we first spoke. The way you made me
+        feel that day -the way you still make me feel- should have its own word, its
+        own language. Because you are a whole world yourself.\n\nI won''t pretend
+        I don''t know the storm is coming. I told you how beautiful, gorgeous and
+        perfect you are. I told you I liked you and you said it was the most beautiful
+        thing anyone had ever said to you. But still you don''t feel that way for
+        me. \n\nWe''ll always be good friends, I know that. I just wish there was
+        more time before you left, never to come back. Or that you actually liked
+        women. I just wish there was even the slightest chance to have you. \n\nThere
+        isn''t, but I still want you to know that I''ll always be here for you, no
+        matter what.  No matter if you never read this letter, no matter if time tears
+        us apart like an autumn leaf. It won''t matter. Because I''ll always love
+        you. And I know I''ll always have a friend in you.\n\nSadly not yours,\nC.",
+        "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "6jadn1", "view_count": null, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "itscarlayall", "saved":
+        false, "mod_reports": [], "name": "t3_6jadn1", "score": 4, "approved_by":
+        null, "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": false, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6jadn1/the_storm_is_coming/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498365502.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jadn1/the_storm_is_coming/",
+        "author_flair_text": null, "quarantine": false, "title": "The storm is coming",
+        "created_utc": 1498336702.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 4}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I met this girl late last year. She said, &amp;quot;Don&amp;#39;t
+        you worry if I disappear.&amp;quot; I told her I&amp;#39;m not really looking
+        for another mistake, I called an old friend thinking that the trouble would
+        wait. But then I jump right in; A week later returned. I reckon she was only
+        looking for a lover to burn, but I gave her my time for two or three nights,
+        then I put it on pause until the moment was right. I went away for months
+        until our paths crossed again. She told me, &amp;quot;I was never looking
+        for a friend. Maybe you could swing by my room around 10:00. Baby, bring a
+        lemon and a bottle of gin.\nWe&amp;#39;ll be in between the sheets &amp;#39;til
+        the late AM. Baby, if you wanted me then you should&amp;#39;ve just said.&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;And
+        for a couple weeks I only wanna see her. We drink away the days with a take-away
+        pizza. Before a text message was the only way to reach her; Now she&amp;#39;s
+        staying at my place and loves the way I treat her. Singing out Aretha. All
+        over the track like a feature, and never wants to sleep, I guess that I don&amp;#39;t
+        want to either. But me and her we make money the same way. Four cities, two
+        planes the same day. And those shows have never been what it&amp;#39;s about,
+        but maybe we&amp;#39;ll go together and just figure it out. I&amp;#39;d rather
+        put on a film with you and sit on a couch, but we should get on a plane or
+        we&amp;#39;ll be missing it now. Wish I&amp;#39;d have written it down, the
+        way that things played out. When she was kissing him how I was confused about.&lt;/p&gt;\n\n&lt;p&gt;Knock
+        Knock Knock, on my hotel door. I don&amp;#39;t even know if she knows what
+        for. She was crying on my shoulder, I already told ya; Trust and respect is
+        what we do this for. I never intended to be next, but you didn&amp;#39;t need
+        to take him to bed that&amp;#39;s all. And I never saw him as a threat, until
+        you disappeared with him to have sex of course. It&amp;#39;s not like we were
+        both on tour we were staying on the same fucking hotel floor. And I wasn&amp;#39;t
+        looking for a promise or commitment, but it was never just fun and I thought
+        you were different. This is not the way you realize what you wanted, it&amp;#39;s
+        a bit too much, too late if I&amp;#39;m honest.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;AND
+        ALL THIS TIME GOD KNOWS IM SINGING&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;AH
+        LAHMLAHLAH&lt;/strong&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "I met this girl late last year. She said, \"Don''t you worry if I disappear.\"
+        I told her I''m not really looking for another mistake, I called an old friend
+        thinking that the trouble would wait. But then I jump right in; A week later
+        returned. I reckon she was only looking for a lover to burn, but I gave her
+        my time for two or three nights, then I put it on pause until the moment was
+        right. I went away for months until our paths crossed again. She told me,
+        \"I was never looking for a friend. Maybe you could swing by my room around
+        10:00. Baby, bring a lemon and a bottle of gin.\nWe''ll be in between the
+        sheets ''til the late AM. Baby, if you wanted me then you should''ve just
+        said.\"\n\nAnd for a couple weeks I only wanna see her. We drink away the
+        days with a take-away pizza. Before a text message was the only way to reach
+        her; Now she''s staying at my place and loves the way I treat her. Singing
+        out Aretha. All over the track like a feature, and never wants to sleep, I
+        guess that I don''t want to either. But me and her we make money the same
+        way. Four cities, two planes the same day. And those shows have never been
+        what it''s about, but maybe we''ll go together and just figure it out. I''d
+        rather put on a film with you and sit on a couch, but we should get on a plane
+        or we''ll be missing it now. Wish I''d have written it down, the way that
+        things played out. When she was kissing him how I was confused about.\n\nKnock
+        Knock Knock, on my hotel door. I don''t even know if she knows what for. She
+        was crying on my shoulder, I already told ya; Trust and respect is what we
+        do this for. I never intended to be next, but you didn''t need to take him
+        to bed that''s all. And I never saw him as a threat, until you disappeared
+        with him to have sex of course. It''s not like we were both on tour we were
+        staying on the same fucking hotel floor. And I wasn''t looking for a promise
+        or commitment, but it was never just fun and I thought you were different.
+        This is not the way you realize what you wanted, it''s a bit too much, too
+        late if I''m honest.\n\n**AND ALL THIS TIME GOD KNOWS IM SINGING**\n\n**AH
+        LAHMLAHLAH**", "likes": null, "suggested_sort": null, "user_reports": [],
+        "secure_media": null, "link_flair_text": null, "id": "6iptxx", "view_count":
+        null, "secure_media_embed": {}, "clicked": false, "report_reasons": null,
+        "author": "LabeledAsALunatic", "saved": false, "mod_reports": [], "name":
+        "t3_6iptxx", "score": 4, "approved_by": null, "over_18": false, "domain":
+        "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": 1498106537.0, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6iptxx/a_letter_for_you/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498118440.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6iptxx/a_letter_for_you/",
+        "author_flair_text": null, "quarantine": false, "title": "A letter for you....",
+        "created_utc": 1498089640.0, "distinguished": null, "media": null, "num_comments":
+        1, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 4}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;Best friends for 25 years. Now it is difficult for
+        me to cherish what we once had, because you have proven yourself to be a real
+        - I don&amp;#39;t even know what word to use. You were a good friend once,
+        a good person. But no other person I have ever met has become such a failure
+        at being humane as you have. I don&amp;#39;t wish you anythig bad, but I don&amp;#39;t
+        wish you very well either. I hope you will be allright. That&amp;#39;s all
+        I can manage to say. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "Best friends for 25 years. Now it is difficult for me to cherish what we
+        once had, because you have proven yourself to be a real - I don''t even know
+        what word to use. You were a good friend once, a good person. But no other
+        person I have ever met has become such a failure at being humane as you have.
+        I don''t wish you anythig bad, but I don''t wish you very well either. I hope
+        you will be allright. That''s all I can manage to say. ", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6j9wtn", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "Stundenglas", "saved": false, "mod_reports":
+        [], "name": "t3_6j9wtn", "score": 5, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6j9wtn/25_years/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498360198.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6j9wtn/25_years/", "author_flair_text":
+        null, "quarantine": false, "title": "25 years", "created_utc": 1498331398.0,
+        "distinguished": null, "media": null, "num_comments": 0, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 5}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;A,\nI know we&amp;#39;ve been best friends for quite
+        a few months. They were quite easily the best months of my high school life.
+        Being a lonely, socially anxious, introverted nerd can be difficult. You don&amp;#39;t
+        make many friends, even though it seems everyone around you likes you. Making
+        friends was difficult for me. Talking to girls was impossible. And to think
+        that my best friend would be a girl... Whew&lt;/p&gt;\n\n&lt;p&gt;The first
+        day you entered the class, I honestly thought you were kinda weird. I didn&amp;#39;t
+        like you much. You didn&amp;#39;t talk much, and you would sit alone most
+        of the time. Or sit around the group which was full of the &amp;quot;bad kids&amp;quot;.
+        I remember the day when you cried in class, when you were asked about your
+        friends, and how you missed them. I dunno, but that day, my view towards you
+        changed. I kinda softened towards you. Plainly because I know how it feels
+        staying away from your friends. I wanted to tell you that I know how it feels,
+        but again, my anxiety stopped me. &lt;/p&gt;\n\n&lt;p&gt;Months passed. We
+        were just strangers. Until that computer test. I remember how I was made to
+        sit in a corner, and you were made to sit right next to me. I finished quickly,
+        and then you slowly asked for help. I obliged. We both aced that test. It
+        was a wonderful feeling. And for the first time, I felt that someone actually
+        thanked me for helping them. You were so happy that day. And then, we started
+        meeting in the library, chatting sometimes. I normally hated talking to people,
+        but you were different. Talking to you made me feel better in a way I can&amp;#39;t
+        explain. &lt;/p&gt;\n\n&lt;p&gt;We became good friends over Facebook. I still
+        remember those late night convos we had. We started hanging around in school
+        together. And then you came to know about my depression. I thought you would
+        maybe stay away from me. But no, you stayed. And you helped me through it.
+        I finally thought I had made a friend in high school. I was happy.&lt;/p&gt;\n\n&lt;p&gt;Over
+        the months, we grew closer. Became best friends. We had fun in the week before
+        the holidays, at school. That was when I realized I actually had feelings
+        for you. Whenever I saw you looking Rahul in they eyes, or standing next to
+        him, I fel that tingling feeling in my stomach, tht bit of jealousy. &lt;/p&gt;\n\n&lt;p&gt;The
+        holidays started. We began texting each other a lot more. It was fun. I wanted
+        to tell you that I loved you, for that amazing person who you are. And oh
+        god, you were so beautiful, and your smile.... It was sunshine. But I kept
+        those feelings inside, due to tje fear of ruining our friendship. We grew
+        closer. We even had a few fights, but in the end, we just got to know each
+        other better. I told you how much you meant to me, (as a friend). We shared
+        those funny little stories, and laughed. Those days were amazing. I still
+        remember how you celebrated my small victories in those stupid gaming tournaments,
+        even though you didn&amp;#39;t know anything about it. I remember how you
+        would naughtily ask me for treats. I remember how you would get irritated
+        at my silly puns, and jokes, and geekiness&lt;/p&gt;\n\n&lt;p&gt;I remember
+        seeing your face for the first time in the vacations. God, you looked so pretty.
+        I remember how you told me I &amp;quot;made your day&amp;quot; so many times.
+        &lt;/p&gt;\n\n&lt;p&gt;I started thinking that maybe you like me too. How
+        stupid of me. Finally, I had mustered the courage to tell you how I felt.
+        I decided to tell that to you in school, because texting all those feelings
+        didn&amp;#39;t quite seem right. &lt;/p&gt;\n\n&lt;p&gt;And then it all shattered.
+        That night, when you told me, you had a boyfriend. It left me broken inside.
+        Of course I lied when I told you I was happy for you. To think that those
+        beautiful eyes won&amp;#39;t be looking into mine in the future(sorry, I know
+        it sounds hella creepy), it kinda broke my heart. Still, I said I was happy
+        for you, that you had someone. And you believed it too (maybe)&lt;/p&gt;\n\n&lt;p&gt;School
+        started, and finally I got to see you. I just wantdd to run and hug you. Seeing
+        you in person after such a long time, it felt great. &lt;/p&gt;\n\n&lt;p&gt;I
+        know you probably will never read this (you might, because after all, you
+        joined reddit, because I suggested that you did; but the probability is next
+        to zero), but I just wanted to let it out. \nIf there exists a parallel universe,
+        where maybe, you like me as well, then I&amp;#39;d do anything to live in
+        that world&lt;/p&gt;\n\n&lt;p&gt;Your Best Friend :)&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "A,\nI know we''ve been best friends for quite
+        a few months. They were quite easily the best months of my high school life.
+        Being a lonely, socially anxious, introverted nerd can be difficult. You don''t
+        make many friends, even though it seems everyone around you likes you. Making
+        friends was difficult for me. Talking to girls was impossible. And to think
+        that my best friend would be a girl... Whew\n\nThe first day you entered the
+        class, I honestly thought you were kinda weird. I didn''t like you much. You
+        didn''t talk much, and you would sit alone most of the time. Or sit around
+        the group which was full of the \"bad kids\". I remember the day when you
+        cried in class, when you were asked about your friends, and how you missed
+        them. I dunno, but that day, my view towards you changed. I kinda softened
+        towards you. Plainly because I know how it feels staying away from your friends.
+        I wanted to tell you that I know how it feels, but again, my anxiety stopped
+        me. \n\nMonths passed. We were just strangers. Until that computer test. I
+        remember how I was made to sit in a corner, and you were made to sit right
+        next to me. I finished quickly, and then you slowly asked for help. I obliged.
+        We both aced that test. It was a wonderful feeling. And for the first time,
+        I felt that someone actually thanked me for helping them. You were so happy
+        that day. And then, we started meeting in the library, chatting sometimes.
+        I normally hated talking to people, but you were different. Talking to you
+        made me feel better in a way I can''t explain. \n\nWe became good friends
+        over Facebook. I still remember those late night convos we had. We started
+        hanging around in school together. And then you came to know about my depression.
+        I thought you would maybe stay away from me. But no, you stayed. And you helped
+        me through it. I finally thought I had made a friend in high school. I was
+        happy.\n\nOver the months, we grew closer. Became best friends. We had fun
+        in the week before the holidays, at school. That was when I realized I actually
+        had feelings for you. Whenever I saw you looking Rahul in they eyes, or standing
+        next to him, I fel that tingling feeling in my stomach, tht bit of jealousy.
+        \n\nThe holidays started. We began texting each other a lot more. It was fun.
+        I wanted to tell you that I loved you, for that amazing person who you are.
+        And oh god, you were so beautiful, and your smile.... It was sunshine. But
+        I kept those feelings inside, due to tje fear of ruining our friendship. We
+        grew closer. We even had a few fights, but in the end, we just got to know
+        each other better. I told you how much you meant to me, (as a friend). We
+        shared those funny little stories, and laughed. Those days were amazing. I
+        still remember how you celebrated my small victories in those stupid gaming
+        tournaments, even though you didn''t know anything about it. I remember how
+        you would naughtily ask me for treats. I remember how you would get irritated
+        at my silly puns, and jokes, and geekiness\n\nI remember seeing your face
+        for the first time in the vacations. God, you looked so pretty. I remember
+        how you told me I \"made your day\" so many times. \n\nI started thinking
+        that maybe you like me too. How stupid of me. Finally, I had mustered the
+        courage to tell you how I felt. I decided to tell that to you in school, because
+        texting all those feelings didn''t quite seem right. \n\nAnd then it all shattered.
+        That night, when you told me, you had a boyfriend. It left me broken inside.
+        Of course I lied when I told you I was happy for you. To think that those
+        beautiful eyes won''t be looking into mine in the future(sorry, I know it
+        sounds hella creepy), it kinda broke my heart. Still, I said I was happy for
+        you, that you had someone. And you believed it too (maybe)\n\nSchool started,
+        and finally I got to see you. I just wantdd to run and hug you. Seeing you
+        in person after such a long time, it felt great. \n\n\nI know you probably
+        will never read this (you might, because after all, you joined reddit, because
+        I suggested that you did; but the probability is next to zero), but I just
+        wanted to let it out. \nIf there exists a parallel universe, where maybe,
+        you like me as well, then I''d do anything to live in that world\n\nYour Best
+        Friend :)", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "6j9tg5", "view_count": null, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "TechBaron13", "saved":
+        false, "mod_reports": [], "name": "t3_6j9tg5", "score": 8, "approved_by":
+        null, "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": false, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6j9tg5/i_wish_i_could_say_all_this_to_you/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498359143.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6j9tg5/i_wish_i_could_say_all_this_to_you/",
+        "author_flair_text": null, "quarantine": false, "title": "I wish I could say
+        all this to you", "created_utc": 1498330343.0, "distinguished": null, "media":
+        null, "num_comments": 0, "is_self": true, "visited": false, "subreddit_type":
+        "public", "is_video": false, "ups": 8}}, {"kind": "t3", "data": {"contest_mode":
+        false, "subreddit_name_prefixed": "r/UnsentLetters", "banned_by": null, "media_embed":
+        {}, "thumbnail_width": null, "subreddit": "UnsentLetters", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m sorry I
+        never go out with friends, it&amp;#39;s because I don&amp;#39;t have any.
+        I&amp;#39;m sorry I don&amp;#39;t have any interests. I&amp;#39;m sorry I&amp;#39;m
+        not passionate about anything. I&amp;#39;m sorry I fail at everything. I&amp;#39;m
+        sorry I failed collage even though I showed so much potential all the way
+        up to high school. I&amp;#39;m sorry it&amp;#39;s Friday evening and I&amp;#39;m
+        lying in my room on the floor, crying and telling a bunch of strangers what
+        I should be telling you, but we&amp;#39;re too emotionally detached.\nIt&amp;#39;s
+        obvious, all you ever wanted was to have a normal happy child, with goals
+        and interests and a social life, maybe get married some day and bring you
+        the joy of having a grandchild. It&amp;#39;s not that much to ask, really.
+        I mean to most people that stuff is like breathing. It&amp;#39;s just something
+        you don&amp;#39;t really think about, and it comes on its own.\nI&amp;#39;m
+        sorry you did so much for me, and could see so much in me, only to have it
+        turn out like this. I really don&amp;#39;t know where it went wrong&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I''m sorry I never go out with friends, it''s
+        because I don''t have any. I''m sorry I don''t have any interests. I''m sorry
+        I''m not passionate about anything. I''m sorry I fail at everything. I''m
+        sorry I failed collage even though I showed so much potential all the way
+        up to high school. I''m sorry it''s Friday evening and I''m lying in my room
+        on the floor, crying and telling a bunch of strangers what I should be telling
+        you, but we''re too emotionally detached.\nIt''s obvious, all you ever wanted
+        was to have a normal happy child, with goals and interests and a social life,
+        maybe get married some day and bring you the joy of having a grandchild. It''s
+        not that much to ask, really. I mean to most people that stuff is like breathing.
+        It''s just something you don''t really think about, and it comes on its own.\nI''m
+        sorry you did so much for me, and could see so much in me, only to have it
+        turn out like this. I really don''t know where it went wrong", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "6j9aq5", "view_count": null, "secure_media_embed": {}, "clicked":
+        false, "report_reasons": null, "author": "deltaforcemarine", "saved": false,
+        "mod_reports": [], "name": "t3_6j9aq5", "score": 11, "approved_by": null,
+        "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": false, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6j9aq5/im_sorry_mom/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498353346.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6j9aq5/im_sorry_mom/",
+        "author_flair_text": null, "quarantine": false, "title": "I''m sorry Mom",
+        "created_utc": 1498324546.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 11}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;Given that I haven\u2019t seen you in over a year,
+        and that we almost haven\u2019t talked in that time, it might be weird to
+        receive this now, but I have wanted to tell you this for a long time. &lt;/p&gt;\n\n&lt;p&gt;First
+        of all, I think you\u2019re great, and I really like you. You\u2019re funny
+        and smart, and it\u2019s always fun when you\u2019re around. When we were
+        hanging out you also seemed to be somewhat interested in me and who I was.
+        This might be how you are with everyone, but to me it was new, I don\u2019t
+        get those kind of questions a lot. Still, I never thought you could be interested
+        in me in a romantic way, you were good at the things where I fall short. &lt;/p&gt;\n\n&lt;p&gt;You
+        seem fearless, and you do the things you want to do, without much thought
+        about what others might think. It seems like your life is full of fun people
+        and events, while I am just a guy that doesn\u2019t take too much space, a
+        guy you don\u2019t really notice, and I couldn\u2019t imagine the possibility
+        of me fitting into your life. I felt, and feel, like I am too boring for you,
+        but I really wish that it weren\u2019t that way. &lt;/p&gt;\n\n&lt;p&gt;This
+        is also the reason for me asking you out right before we were both going away.
+        Since we were going away, I knew it would amount to nothing, and therefore
+        I wouldn\u2019t have to deal with all this. It was just my way of letting
+        you know that I liked you. I thought it might have been a nice thing for you
+        to know that I, someone that maybe knew you a different way than other guys,
+        really liked you. &lt;/p&gt;\n\n&lt;p&gt;Now that we are back in the same
+        city, my feelings are coming back stronger, and I think about you all the
+        time. I really want to let you know how I feel, but I have never had a close
+        relationship with anyone, and I don\u2019t know where to begin. Friends I
+        have had for 15 years have told me that it\u2019s awkward to be with me alone,
+        and I can\u2019t blame them, I know I can be awkward, and make things awkward.
+        I imagine this only being worse if it was with you, and I can\u2019t understand
+        how we could ever get to a point where things would be natural and fun. With
+        all the outgoing, fun people you have around you, I can\u2019t imagine you
+        being interested in anything like that. &lt;/p&gt;\n\n&lt;p&gt;Also, I was
+        never really sure if you liked me or if you spent time with me to be nice
+        to someone that wasn\u2019t the best at making friends. So all this might
+        be weird to receive from me.&lt;/p&gt;\n\n&lt;p&gt;I don\u2019t expect a response
+        to this, I just needed to let it all out.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;", "selftext": "Given that I haven\u2019t seen you in over a year, and
+        that we almost haven\u2019t talked in that time, it might be weird to receive
+        this now, but I have wanted to tell you this for a long time. \n \nFirst of
+        all, I think you\u2019re great, and I really like you. You\u2019re funny and
+        smart, and it\u2019s always fun when you\u2019re around. When we were hanging
+        out you also seemed to be somewhat interested in me and who I was. This might
+        be how you are with everyone, but to me it was new, I don\u2019t get those
+        kind of questions a lot. Still, I never thought you could be interested in
+        me in a romantic way, you were good at the things where I fall short. \n \nYou
+        seem fearless, and you do the things you want to do, without much thought
+        about what others might think. It seems like your life is full of fun people
+        and events, while I am just a guy that doesn\u2019t take too much space, a
+        guy you don\u2019t really notice, and I couldn\u2019t imagine the possibility
+        of me fitting into your life. I felt, and feel, like I am too boring for you,
+        but I really wish that it weren\u2019t that way. \n \nThis is also the reason
+        for me asking you out right before we were both going away. Since we were
+        going away, I knew it would amount to nothing, and therefore I wouldn\u2019t
+        have to deal with all this. It was just my way of letting you know that I
+        liked you. I thought it might have been a nice thing for you to know that
+        I, someone that maybe knew you a different way than other guys, really liked
+        you. \n \nNow that we are back in the same city, my feelings are coming back
+        stronger, and I think about you all the time. I really want to let you know
+        how I feel, but I have never had a close relationship with anyone, and I don\u2019t
+        know where to begin. Friends I have had for 15 years have told me that it\u2019s
+        awkward to be with me alone, and I can\u2019t blame them, I know I can be
+        awkward, and make things awkward. I imagine this only being worse if it was
+        with you, and I can\u2019t understand how we could ever get to a point where
+        things would be natural and fun. With all the outgoing, fun people you have
+        around you, I can\u2019t imagine you being interested in anything like that.
+        \n \nAlso, I was never really sure if you liked me or if you spent time with
+        me to be nice to someone that wasn\u2019t the best at making friends. So all
+        this might be weird to receive from me.\n \nI don\u2019t expect a response
+        to this, I just needed to let it all out.", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "6j9758", "view_count": null, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "grivics", "saved": false, "mod_reports":
+        [], "name": "t3_6j9758", "score": 13, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6j9758/what_i_want_to_tell_you/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498352257.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6j9758/what_i_want_to_tell_you/",
+        "author_flair_text": null, "quarantine": false, "title": "What I want to tell
+        you", "created_utc": 1498323457.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 13}}], "after": "t3_6j9758", "before": null}}'
+    http_version: 
+  recorded_at: Sun, 25 Jun 2017 12:29:21 GMT
+recorded_with: VCR 3.0.3

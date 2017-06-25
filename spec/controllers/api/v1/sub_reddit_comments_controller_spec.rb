@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe SubRedditCommentsController, type: :controller do
+RSpec.describe Api::V1::SubRedditCommentsController, type: :controller do
 
   # This should return the minimal set of attributes required to create a valid
   # SubRedditComment. As you add validations to SubRedditComment, be sure to

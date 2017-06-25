@@ -1,0 +1,294 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/UnsentLetters/new.json?limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - edgebucket=r3f2SwTeBGKfRVDt1i; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=0000000000053apvkr.2.1498393762878.Z0FBQUFBQlpUNnlpMjlkYm9EeG1WZXg4TzUtVUFDelJ6aU5VblhCdUJFSDdISDBNREt4VFVFRWJpSWtoWFJ0LUpCYVpNRzhHRlc3R1d0WThTZTBOclpwSXZpWXFlQmloeWI1cGNkNjY5NnRHVTZRQWlJY0dKdjNzRE1pUkJEYVdQc0dncjlsbVZzMzM;
+        Domain=reddit.com; Max-Age=63071999; Path=/; expires=Tue, 25-Jun-2019 12:29:22
+        GMT; secure
+      - session_tracker=65eH4VioNr8oFRRLss.0.1498393762874.Z0FBQUFBQlpUNnlpZ3FFZWNyTjZyWWUzV2FuN1NvY1NlbVFEUFduN0xRNkR1UGtMU3JlWEp4ZDhqcTZXV08xSGJ5aExOc19uQmgxWWdWVVZWczhIbkJLNVdOZlAtQnQwa3FTc3psOW5IZ1JzbE9MYTRoTG1nRUtVdWFVaE0yTEtUYTNpZWpYSGtMelo;
+        Domain=reddit.com; Max-Age=7199; Path=/; expires=Sun, 25-Jun-2017 14:29:22
+        GMT; secure
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=EdbtqSXSr28k33JL%2F9UaLxN2ckWgih8%2Bv9t6NxdbzZaFMbx94Pjgzu93s7ywKbR0NIntBBrL%2ByqfELO7aHD1%2FSsShnrH9rRS
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '3518'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 25 Jun 2017 12:29:22 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-hhn1539-HHN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1498393763.829652,VS0,VE126
+      Vary:
+      - accept-encoding
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+        "data": {"contest_mode": false, "subreddit_name_prefixed": "r/UnsentLetters",
+        "banned_by": null, "media_embed": {}, "thumbnail_width": null, "subreddit":
+        "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;my
+        eyes hurt when i remember how bright it was then. the memories are blinding
+        me inside out. i don&amp;#39;t want to look at it anymore but I can&amp;#39;t
+        just forget the sun.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "my eyes hurt when i remember how bright it was then. the memories are blinding
+        me inside out. i don''t want to look at it anymore but I can''t just forget
+        the sun.", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "6je0sw", "view_count": null, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "pictureyou", "saved":
+        false, "mod_reports": [], "name": "t3_6je0sw", "score": 1, "approved_by":
+        null, "over_18": false, "domain": "self.UnsentLetters", "hidden": false, "thumbnail":
+        "self", "subreddit_id": "t5_2seir", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "gilded": 0, "downs": 0, "brand_safe":
+        true, "archived": false, "removal_reason": null, "can_gild": false, "thumbnail_height":
+        null, "hide_score": true, "spoiler": false, "permalink": "/r/UnsentLetters/comments/6je0sw/remembering_you/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498421613.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6je0sw/remembering_you/",
+        "author_flair_text": null, "quarantine": false, "title": "remembering you",
+        "created_utc": 1498392813.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I love you. I have for a while now. And nothing breaks
+        my heart more than knowing that you will never be mine or I yours. Tonight
+        you uttered the words &amp;quot;I&amp;#39;m not looking for your company.
+        It is not you who I want here&amp;quot; And my heart broke, so I left. I left
+        and tried forcing my heart to grow a little colder, a little more like stone
+        so that next time I see you it won&amp;#39;t be alive to attempt breaking
+        through my chest. And I want to stop. I want to stop loving you. Want to stop
+        caring about you. Make it all stop. Because you&amp;#39;re magic. And magic
+        girls like you are known for breaking the hearts of girls like me. &lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I love you. I have for a while now. And nothing
+        breaks my heart more than knowing that you will never be mine or I yours.
+        Tonight you uttered the words \"I''m not looking for your company. It is not
+        you who I want here\" And my heart broke, so I left. I left and tried forcing
+        my heart to grow a little colder, a little more like stone so that next time
+        I see you it won''t be alive to attempt breaking through my chest. And I want
+        to stop. I want to stop loving you. Want to stop caring about you. Make it
+        all stop. Because you''re magic. And magic girls like you are known for breaking
+        the hearts of girls like me. ", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "6jdx82", "view_count":
+        null, "secure_media_embed": {}, "clicked": false, "report_reasons": null,
+        "author": "Cool_stitch", "saved": false, "mod_reports": [], "name": "t3_6jdx82",
+        "score": 1, "approved_by": null, "over_18": false, "domain": "self.UnsentLetters",
+        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2seir", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "gilded":
+        0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason": null,
+        "can_gild": false, "thumbnail_height": null, "hide_score": true, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdx82/unrequited_love/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498420071.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdx82/unrequited_love/",
+        "author_flair_text": null, "quarantine": false, "title": "Unrequited Love",
+        "created_utc": 1498391271.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;That&amp;#39;s how long it been my little hummingbird.
+        Five long years, one thousand ninety-five days and nights. Countless bottles
+        of liquor, uncountalbe of hours of self-hatred and five long years and yet
+        for some damn reason I can&amp;#39;t rid myself of your face. I meet someone
+        new. You would be pissed, she is one of those chicks we use to make so much
+        fun off. You know, the im not a hippie but am actually a hippie type. We have
+        been dating for awhile now Mar. Her name is Lauren, you would hate her. She
+        is the only thing helping me right now. She helps me on the nights when I
+        wake up from another nightmare of seeing you in that damn bed with the blood
+        everywhere. Her family is amazing to. Speaking of family I saw your sister
+        not to long ago. She still blames me. Your mom to, probably your brother as
+        well but who cares what that waste of genetic potiantal thinks. He is in prison
+        again btw, drugs, who woulda thought right? Yea. I dont blame myself anymore
+        mar, and im sorry about that. I blamed myself for five damn years, five long
+        years but goddamnit it was not my fault. \nYou made your own damn choice,
+        and it wasn&amp;#39;t my fault goddamnit. \nI miss you my hummingbird, but
+        it wasn&amp;#39;t my fault, but it will be the biggest what if of my life.
+        Goodbye Maricia .&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "That''s how long it been my little hummingbird. Five long years, one thousand
+        ninety-five days and nights. Countless bottles of liquor, uncountalbe of hours
+        of self-hatred and five long years and yet for some damn reason I can''t rid
+        myself of your face. I meet someone new. You would be pissed, she is one of
+        those chicks we use to make so much fun off. You know, the im not a hippie
+        but am actually a hippie type. We have been dating for awhile now Mar. Her
+        name is Lauren, you would hate her. She is the only thing helping me right
+        now. She helps me on the nights when I wake up from another nightmare of seeing
+        you in that damn bed with the blood everywhere. Her family is amazing to.
+        Speaking of family I saw your sister not to long ago. She still blames me.
+        Your mom to, probably your brother as well but who cares what that waste of
+        genetic potiantal thinks. He is in prison again btw, drugs, who woulda thought
+        right? Yea. I dont blame myself anymore mar, and im sorry about that. I blamed
+        myself for five damn years, five long years but goddamnit it was not my fault.
+        \nYou made your own damn choice, and it wasn''t my fault goddamnit. \nI miss
+        you my hummingbird, but it wasn''t my fault, but it will be the biggest what
+        if of my life. Goodbye Maricia .", "likes": null, "suggested_sort": null,
+        "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "6jdria",
+        "view_count": null, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "TheDrunkDwarf", "saved": false, "mod_reports": [], "name":
+        "t3_6jdria", "score": 2, "approved_by": null, "over_18": false, "domain":
+        "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": true, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdria/5_years/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498417061.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdria/5_years/", "author_flair_text":
+        null, "quarantine": false, "title": "5 Years...", "created_utc": 1498388261.0,
+        "distinguished": null, "media": null, "num_comments": 0, "is_self": true,
+        "visited": false, "subreddit_type": "public", "is_video": false, "ups": 2}},
+        {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I miss that easy intimacy of a word or a sentence
+        being like a match to kindling between us, then sitting back and watching
+        the fire grow.  I miss having someone who knows me like the back of their
+        own hand, who never misses a beat, who seems to know what I need before even
+        I know myself.  I miss our safe place and the complete trust that came along
+        with it.  No-one gets me like you, not before you, and I can&amp;#39;t imagine
+        opening up to another person like I did you.&lt;/p&gt;\n\n&lt;p&gt;I miss
+        being needed. I didn&amp;#39;t quite realise how precious it was to have someone,
+        just one person in my life, who I could please so easily.  I know your neediness
+        at times made you so uncomfortable, but I miss it too.  I miss needing you
+        like air, or water, always desperate for more just to survive.  &lt;/p&gt;\n\n&lt;p&gt;I
+        miss the breaks being short and relatively predictable.  I miss the certainty
+        that you&amp;#39;d come back.  I miss our long reconnecting chats that cleared
+        the air and grounded us.&lt;/p&gt;\n\n&lt;p&gt;I miss your exclamation marks.&lt;/p&gt;\n\n&lt;p&gt;I
+        miss us, and the you I knew, before this all went so horribly wrong.&lt;/p&gt;\n\n&lt;p&gt;This
+        probably sounds dumb and inauthentic.  It&amp;#39;s not what you wanted to
+        hear, I know.  But I am trying.  Please know I am trying.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I miss that easy intimacy of a word or a sentence
+        being like a match to kindling between us, then sitting back and watching
+        the fire grow.  I miss having someone who knows me like the back of their
+        own hand, who never misses a beat, who seems to know what I need before even
+        I know myself.  I miss our safe place and the complete trust that came along
+        with it.  No-one gets me like you, not before you, and I can''t imagine opening
+        up to another person like I did you.\n\nI miss being needed. I didn''t quite
+        realise how precious it was to have someone, just one person in my life, who
+        I could please so easily.  I know your neediness at times made you so uncomfortable,
+        but I miss it too.  I miss needing you like air, or water, always desperate
+        for more just to survive.  \n\nI miss the breaks being short and relatively
+        predictable.  I miss the certainty that you''d come back.  I miss our long
+        reconnecting chats that cleared the air and grounded us.\n\nI miss your exclamation
+        marks.\n\nI miss us, and the you I knew, before this all went so horribly
+        wrong.\n\nThis probably sounds dumb and inauthentic.  It''s not what you wanted
+        to hear, I know.  But I am trying.  Please know I am trying.", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "6jdo03", "view_count": null, "secure_media_embed": {}, "clicked":
+        false, "report_reasons": null, "author": "lulalay", "saved": false, "mod_reports":
+        [], "name": "t3_6jdo03", "score": 3, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": 1498386857.0, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdo03/i_miss_you_part_two/",
+        "num_reports": null, "locked": false, "stickied": false, "created": 1498415040.0,
+        "url": "https://www.reddit.com/r/UnsentLetters/comments/6jdo03/i_miss_you_part_two/",
+        "author_flair_text": null, "quarantine": false, "title": "I miss you, part
+        two", "created_utc": 1498386240.0, "distinguished": null, "media": null, "num_comments":
+        0, "is_self": true, "visited": false, "subreddit_type": "public", "is_video":
+        false, "ups": 3}}, {"kind": "t3", "data": {"contest_mode": false, "subreddit_name_prefixed":
+        "r/UnsentLetters", "banned_by": null, "media_embed": {}, "thumbnail_width":
+        null, "subreddit": "UnsentLetters", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;I wish I could see you again.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m
+        not sure whether you&amp;#39;re alive. I&amp;#39;m not sure where you are,
+        because we drifted apart so violently and I never even got to see you go.
+        &lt;/p&gt;\n\n&lt;p&gt;You made everything worth it, for a while.&lt;/p&gt;\n\n&lt;p&gt;You
+        taught me a lot of things, and I&amp;#39;m glad I knew you. I&amp;#39;m really
+        fucking glad I knew you, and nothing could ever make me regret that. The pain,
+        even, could never make me regret that.&lt;/p&gt;\n\n&lt;p&gt;I hope you&amp;#39;re
+        okay, wherever you are. &lt;/p&gt;\n\n&lt;p&gt;I hope you know that I still
+        look out for our stars in the sky. I usually can&amp;#39;t see them. Sometimes
+        I think this is a sign, that you must be gone, but I doubt it. I just don&amp;#39;t
+        look as hard anymore.&lt;/p&gt;\n\n&lt;p&gt;If you are gone, then I&amp;#39;m
+        sorry.&lt;/p&gt;\n\n&lt;p&gt;I wish I&amp;#39;d have known so I could have
+        got those flowers for you. I&amp;#39;m the only one that knew which song you
+        wanted them to play. \nAnd I wanted to talk about you. There would have been
+        so, so much to say.&lt;/p&gt;\n\n&lt;p&gt;Maybe a stupid part of me is hoping
+        that you&amp;#39;ll see this, somehow.&lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t
+        even know where you are.&lt;/p&gt;\n\n&lt;p&gt;I just wish it was with me.&lt;/p&gt;\n\n&lt;p&gt;And
+        if you&amp;#39;re better somewhere, then I&amp;#39;m sorry. I will be going
+        before you. I want you to know. I just want you here again,&lt;/p&gt;\n\n&lt;p&gt;for
+        I have nothing&lt;/p&gt;\n\n&lt;p&gt;and I am exhausted without you,&lt;/p&gt;\n\n&lt;p&gt;wherever
+        you may be,&lt;/p&gt;\n\n&lt;p&gt;and i just want you to tell me something
+        good again.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "I wish
+        I could see you again.\n\nI''m not sure whether you''re alive. I''m not sure
+        where you are, because we drifted apart so violently and I never even got
+        to see you go. \n\nYou made everything worth it, for a while.\n\nYou taught
+        me a lot of things, and I''m glad I knew you. I''m really fucking glad I knew
+        you, and nothing could ever make me regret that. The pain, even, could never
+        make me regret that.\n\nI hope you''re okay, wherever you are. \n\nI hope
+        you know that I still look out for our stars in the sky. I usually can''t
+        see them. Sometimes I think this is a sign, that you must be gone, but I doubt
+        it. I just don''t look as hard anymore.\n\nIf you are gone, then I''m sorry.\n\nI
+        wish I''d have known so I could have got those flowers for you. I''m the only
+        one that knew which song you wanted them to play. \nAnd I wanted to talk about
+        you. There would have been so, so much to say.\n\nMaybe a stupid part of me
+        is hoping that you''ll see this, somehow.\n\nI don''t even know where you
+        are.\n\nI just wish it was with me.\n\nAnd if you''re better somewhere, then
+        I''m sorry. I will be going before you. I want you to know. I just want you
+        here again,\n\nfor I have nothing\n\nand I am exhausted without you,\n\nwherever
+        you may be,\n\nand i just want you to tell me something good again.", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "6jdnqa", "view_count": null, "secure_media_embed": {}, "clicked":
+        false, "report_reasons": null, "author": "someeyes", "saved": false, "mod_reports":
+        [], "name": "t3_6jdnqa", "score": 1, "approved_by": null, "over_18": false,
+        "domain": "self.UnsentLetters", "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2seir", "edited": 1498386358.0, "link_flair_css_class": null, "author_flair_css_class":
+        null, "gilded": 0, "downs": 0, "brand_safe": true, "archived": false, "removal_reason":
+        null, "can_gild": false, "thumbnail_height": null, "hide_score": false, "spoiler":
+        false, "permalink": "/r/UnsentLetters/comments/6jdnqa/zara/", "num_reports":
+        null, "locked": false, "stickied": false, "created": 1498414871.0, "url":
+        "https://www.reddit.com/r/UnsentLetters/comments/6jdnqa/zara/", "author_flair_text":
+        null, "quarantine": false, "title": "Zara", "created_utc": 1498386071.0, "distinguished":
+        null, "media": null, "num_comments": 0, "is_self": true, "visited": false,
+        "subreddit_type": "public", "is_video": false, "ups": 1}}], "after": "t3_6jdnqa",
+        "before": null}}'
+    http_version: 
+  recorded_at: Sun, 25 Jun 2017 12:29:22 GMT
+recorded_with: VCR 3.0.3

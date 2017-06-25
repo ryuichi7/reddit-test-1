@@ -4,7 +4,7 @@ class Api::V1::SubRedditPostsController < ApplicationController
   # GET /sub_reddit_posts
   # GET /sub_reddit_posts.json
   def index
-    @sub_reddit_posts = SubRedditPost.all
+    render json: SubRedditPost.all
   end
 
   # GET /sub_reddit_posts/1
